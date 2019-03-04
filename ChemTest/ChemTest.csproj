@@ -32,7 +32,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icons8_Test_Tube.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -185,78 +186,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="icons8_Test_Tube.ico" />
-    <None Include="Resources\wrong.png" />
-    <None Include="Resources\stopwatch.png" />
-    <None Include="Resources\right.png" />
-    <None Include="Resources\resume.png" />
-    <None Include="Resources\icons8-back-arrow.png" />
-    <None Include="Resources\icons8-exit-sign.png" />
-    <None Include="Resources\icons8-next-step.png" />
-    <None Include="Resources\icons8-exit1.png" />
-    <None Include="Resources\icons8-exit-sign1.png" />
-    <None Include="Resources\icons8-graduation-cap.png" />
-    <None Include="Resources\icons8-dumbbell.png" />
-    <None Include="Resources\icons8-edit-property.png" />
-    <None Include="Resources\icons8-settings.png" />
-    <None Include="Resources\icons8-circled-question-mark.png" />
-    <None Include="Resources\icons8-more-info.png" />
-    <None Include="Resources\icons8-exit.png" />
-    <None Include="Resources\icons8-add-property.png" />
-    <None Include="Resources\icons8-flask-chemistry.png" />
-    <None Include="Resources\icons8-add.png" />
-    <None Include="Resources\icons8-back-button.png" />
-    <None Include="Resources\icons8-back-to.png" />
-    <None Include="Resources\icons8-check-mark-symbol.png" />
-    <None Include="Resources\icons8-delete-button.png" />
-    <None Include="Resources\icons8-minus.png" />
-    <None Include="Resources\icons8-next-button.png" />
-    <None Include="Resources\icons8-next-page.png" />
-    <None Include="Resources\icons8-save.png" />
-    <None Include="Resources\pause.png" />
-    <None Include="Resources\play.png" />
-    <None Include="Resources\atomus logo BLACK.png" />
-    <None Include="Resources\refresh-button.png" />
-    <None Include="Resources\refresh-button %281%29.png" />
-    <None Include="Resources\garbage-bin.png" />
-    <None Include="Resources\addition-sign.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-add-property.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-add.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-back-arrow.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-back-button.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-back-to.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-check-mark-symbol.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-circled-question-mark.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-delete-button.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-dumbbell.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-edit-property.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-exit-sign.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-exit.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-flask-chemistry.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-graduation-cap.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-minus.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-more-info.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-next-button.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-next-page.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-next-step.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-save.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\icons8-settings.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\pause.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\play.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\resume.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\right.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\stopwatch.png" />
-    <Content Include="Resources\Resources v0.9.8\Buttons\wrong.png" />
-    <Content Include="Resources\Resources v0.9.8\Icons\icons8-add-property.ico" />
-    <Content Include="Resources\Resources v0.9.8\Icons\icons8-circled-question-mark.ico" />
-    <Content Include="Resources\Resources v0.9.8\Icons\icons8-dumbbell.ico" />
-    <Content Include="Resources\Resources v0.9.8\Icons\icons8-edit-property.ico" />
-    <Content Include="Resources\Resources v0.9.8\Icons\icons8-flask-chemistry.ico" />
-    <Content Include="Resources\Resources v0.9.8\Icons\icons8-graduation-cap.ico" />
-    <Content Include="Resources\Resources v0.9.8\Icons\icons8-more-info.ico" />
-    <Content Include="Resources\Resources v0.9.8\Icons\icons8-settings.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

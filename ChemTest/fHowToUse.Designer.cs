@@ -39,9 +39,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.richTextBox4 = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
+            this.rtbxLinks = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.rtbx1 = new System.Windows.Forms.RichTextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -101,9 +101,9 @@
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.richTextBox4);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.richTextBox3);
+            this.panel2.Controls.Add(this.rtbxLinks);
             this.panel2.Controls.Add(this.label2);
-            this.panel2.Controls.Add(this.richTextBox2);
+            this.panel2.Controls.Add(this.rtbx1);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Location = new System.Drawing.Point(0, 44);
             this.panel2.Name = "panel2";
@@ -126,7 +126,6 @@
             this.richTextBox4.BackColor = System.Drawing.SystemColors.Menu;
             this.richTextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox4.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.richTextBox4.Enabled = false;
             this.richTextBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.richTextBox4.Location = new System.Drawing.Point(5, 569);
             this.richTextBox4.Name = "richTextBox4";
@@ -147,21 +146,21 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Введення";
             // 
-            // richTextBox3
+            // rtbxLinks
             // 
-            this.richTextBox3.BackColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox3.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.richTextBox3.Enabled = false;
-            this.richTextBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.richTextBox3.Location = new System.Drawing.Point(12, 33);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.ReadOnly = true;
-            this.richTextBox3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBox3.Size = new System.Drawing.Size(231, 129);
-            this.richTextBox3.TabIndex = 7;
-            this.richTextBox3.Text = "1. Введення,\n2. Головне меню,\n3. Режим \"Екзамен\",\n4. Режим \"Тренування\",\n5. Створ" +
-    "ення власного тесту,\n6. Редагування тесту.";
+            this.rtbxLinks.BackColor = System.Drawing.SystemColors.Menu;
+            this.rtbxLinks.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtbxLinks.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.rtbxLinks.Enabled = false;
+            this.rtbxLinks.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.rtbxLinks.Location = new System.Drawing.Point(12, 33);
+            this.rtbxLinks.Name = "rtbxLinks";
+            this.rtbxLinks.ReadOnly = true;
+            this.rtbxLinks.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.rtbxLinks.Size = new System.Drawing.Size(231, 149);
+            this.rtbxLinks.TabIndex = 7;
+            this.rtbxLinks.Text = "1. Введення,\n2. Головне меню,\n3. Режим \"Тренування\",\n4. Режим \"Екзамен\",\n5. Створ" +
+    "ення власного тесту,\n6. Редагування тесту,\n7. Тест від вчителя.";
             // 
             // label2
             // 
@@ -174,20 +173,19 @@
             this.label2.TabIndex = 6;
             this.label2.Text = "Зміст";
             // 
-            // richTextBox2
+            // rtbx1
             // 
-            this.richTextBox2.BackColor = System.Drawing.SystemColors.Menu;
-            this.richTextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox2.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.richTextBox2.Enabled = false;
-            this.richTextBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.richTextBox2.Location = new System.Drawing.Point(12, 244);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.ReadOnly = true;
-            this.richTextBox2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBox2.Size = new System.Drawing.Size(768, 240);
-            this.richTextBox2.TabIndex = 5;
-            this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
+            this.rtbx1.BackColor = System.Drawing.SystemColors.Menu;
+            this.rtbx1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtbx1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.rtbx1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.rtbx1.Location = new System.Drawing.Point(12, 244);
+            this.rtbx1.Name = "rtbx1";
+            this.rtbx1.ReadOnly = true;
+            this.rtbx1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.rtbx1.Size = new System.Drawing.Size(768, 240);
+            this.rtbx1.TabIndex = 5;
+            this.rtbx1.Text = resources.GetString("rtbx1.Text");
             // 
             // button2
             // 
@@ -228,9 +226,9 @@
 		private System.Windows.Forms.RichTextBox richTextBox1;
 		private System.Windows.Forms.Panel panel2;
 		private System.Windows.Forms.Button button2;
-		private System.Windows.Forms.RichTextBox richTextBox2;
+		private System.Windows.Forms.RichTextBox rtbx1;
 		private System.Windows.Forms.Label label3;
-		private System.Windows.Forms.RichTextBox richTextBox3;
+		private System.Windows.Forms.RichTextBox rtbxLinks;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.RichTextBox richTextBox4;

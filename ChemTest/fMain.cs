@@ -159,7 +159,6 @@ namespace ChemTest
 			bAboutUs.Visible = true;
 			bExit.Visible = true;
 
-
 			//show first menu icons
 			pbExam.Visible = true;
 			pbTraining.Visible = true;

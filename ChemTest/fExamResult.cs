@@ -34,11 +34,11 @@ namespace ChemTest
 		}
 		private void ShowResult()
 		{
-			if (rightAnswPurc == 0) pbStars.Image = new Bitmap(@"sys\img\0stars.jpg");
-			if (rightAnswPurc >= 20) pbStars.Image = new Bitmap(@"sys\img\1stars.jpg");
-			if (rightAnswPurc >= 40) pbStars.Image = new Bitmap(@"sys\img\2stars.jpg");
-			if (rightAnswPurc >= 60) pbStars.Image = new Bitmap(@"sys\img\3stars.jpg");
-			if (rightAnswPurc >= 80) pbStars.Image = new Bitmap(@"sys\img\4stars.jpg");
+			if (rightAnswPurc == 0) pbStars.Image = Image.FromFile(@"sys\img\0stars.jpg");
+			if (rightAnswPurc >= 20) pbStars.Image = Image.FromFile(@"sys\img\1stars.jpg");
+			if (rightAnswPurc >= 40) pbStars.Image = Image.FromFile(@"sys\img\2stars.jpg");
+			if (rightAnswPurc >= 60) pbStars.Image = Image.FromFile(@"sys\img\3stars.jpg");
+			if (rightAnswPurc >= 80) pbStars.Image = Image.FromFile(@"sys\img\4stars.jpg");
 
 			if (min < ChemTest.examDuration || (min == ChemTest.examDuration && sec == 0))// success
 			{
@@ -46,7 +46,7 @@ namespace ChemTest
 				{
 					tbxTitle.Text = "Вiтаю!";
 					tbxText.Text = "Ви правильно вiдповiли на всі питання";
-					pbStars.Image = new Bitmap(@"sys\img\5stars.jpg");
+					pbStars.Image = Image.FromFile(@"sys\img\5stars.jpg");
 				}
 				else if (rightAnswPurc >= 80.0)// success
 				{

@@ -22,7 +22,6 @@ D:\Visual studio projects\ChemTest\ChemTest\obj\Debug\ChemTest.csprojAssemblyRef
 C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\bin\Debug\ChemTest.exe.config
 C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\bin\Debug\ChemTest.exe
 C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\bin\Debug\ChemTest.pdb
-C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.csprojAssemblyReference.cache
 C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fAboutChemTest.resources
 C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.CreateTest.resources
 C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fEditTest.resources
