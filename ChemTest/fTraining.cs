@@ -22,7 +22,15 @@ namespace ChemTest
 			InitializeComponent();
 			t = new Training();
 			q = new Questions();
-		}
+
+            // initial images
+            btnTimeStop.BackgroundImage = Image.FromFile(@"sys\img\btn\pause.png");
+            btnReturnToMain.BackgroundImage = Image.FromFile(@"sys\img\btn\back.png");
+            btnOk.BackgroundImage = Image.FromFile(@"sys\img\btn\ok.png");
+            pbTimer.Image = Image.FromFile(@"sys\img\btn\stopwatch.png");
+            pbRight.Image = Image.FromFile(@"sys\img\btn\ok.png");
+            pbWrong.Image = Image.FromFile(@"sys\img\btn\delete.png");
+        }
 
 		// set default elements to default position after exit
 		private void DefaultPosition()
@@ -250,7 +258,7 @@ namespace ChemTest
 		{
 			if (Convert.ToInt32(btnTimeStop.Tag) == 1)//plays
 			{
-				btnTimeStop.BackgroundImage = global::ChemTest.Properties.Resources.play;
+				btnTimeStop.BackgroundImage = Image.FromFile(@"sys\img\btn\play.png");
 				lblTimeCounter.Enabled = false;
 
 				btnTimeStop.Tag = 0;
@@ -258,8 +266,8 @@ namespace ChemTest
 			}
 			else if(Convert.ToInt32(btnTimeStop.Tag) == 0)//on pause
 			{
-				btnTimeStop.BackgroundImage = global::ChemTest.Properties.Resources.pause;
-				lblTimeCounter.Enabled = true;
+				btnTimeStop.BackgroundImage = Image.FromFile(@"sys\img\btn\pause.png");
+                lblTimeCounter.Enabled = true;
 
 				btnTimeStop.Tag = 1;
 				timer.Start();

@@ -19,3 +19,24 @@ D:\Visual studio projects\ChemTest\ChemTest\obj\Debug\ChemTest.fExamResult.resou
 D:\Visual studio projects\ChemTest\ChemTest\obj\Debug\ChemTest.fLogin.resources
 D:\Visual studio projects\ChemTest\ChemTest\obj\Debug\ChemTest.fStudentExamResultViewer.resources
 D:\Visual studio projects\ChemTest\ChemTest\obj\Debug\ChemTest.csprojAssemblyReference.cache
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\bin\Debug\ChemTest.exe.config
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\bin\Debug\ChemTest.exe
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\bin\Debug\ChemTest.pdb
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.csprojAssemblyReference.cache
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fAboutChemTest.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.CreateTest.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fEditTest.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fExam.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fExamResult.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fHowToUse.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fLogin.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fMain.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fSelectTest.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fSettings.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fStudentExamResultViewer.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.fTraining.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.Properties.Resources.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.csproj.GenerateResource.cache
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.exe
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.pdb

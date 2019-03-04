@@ -28,8 +28,11 @@ namespace ChemTest
 		{
 			System.Diagnostics.Process.Start("http://atomusedu.wixsite.com/chemtest");
 		}
-
-		private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/povstenko/chemtest");
+        }
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
 		{
 			System.Diagnostics.Process.Start("http://atomusedu.wixsite.com/atomus");
 		}
@@ -38,5 +41,12 @@ namespace ChemTest
 		{
 
 		}
-	}
+    }
 }
+/*
+* Copyright (c) by V. Povstenko. All rights reserved.
+* Consult your license regarding permissions and restrictions.
+* Contacts: 
+*	e-mail: vitaly.povstenko@gmail.com,
+*	phone: +38(098)066-14-03(UA).
+*/

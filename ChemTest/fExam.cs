@@ -17,7 +17,6 @@ namespace ChemTest
 		int timerSecCounter = 0;
 		public Questions q;
 
-
 		bool withFile;
 		public fExam(bool withFile)
 		{
@@ -26,7 +25,10 @@ namespace ChemTest
 			q = new Questions();
 
 			this.withFile = withFile;
-		}
+            // initial images
+            btnOk.BackgroundImage = Image.FromFile(@"sys\img\btn\next.png");
+            pbTimer.Image = Image.FromFile(@"sys\img\btn\stopwatch.png");
+        }
 		private void fExam_Load(object sender, EventArgs e)
 		{
 			progressBar1.Value = 0;

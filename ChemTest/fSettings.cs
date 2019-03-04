@@ -19,7 +19,9 @@ namespace ChemTest
 		public fSettings()
 		{
 			InitializeComponent();
-			UpdateFileList();
+            // initial images
+            btnUpdateQuestionsList.BackgroundImage = Image.FromFile(@"sys\img\btn\refresh.png");
+            UpdateFileList();
 			odialog = openFileDialog1;
 			odialog.Filter = "Файл результату|*.res|Всі файли|*.*";
 		}

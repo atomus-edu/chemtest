@@ -26,13 +26,20 @@ namespace ChemTest
 			qs = new List<Questions>();
 			fqs = new List<Questions>();
 			dir = new DirectoryInfo(@"sys\questions"); // папка с файлами 
+            // initial images
+            btnReturnToMain.BackgroundImage = Image.FromFile(@"sys\img\btn\back.png");
+            btnOK.BackgroundImage = Image.FromFile(@"sys\img\btn\ok.png");
+            btnAdd.BackgroundImage = Image.FromFile(@"sys\img\btn\add.png");
+            btnOpen.BackgroundImage = Image.FromFile(@"sys\img\btn\add.png");//change later
 
-			cbxSubject.Text = "Будь-який";//counter for this shit
+
+            cbxSubject.Text = "Будь-який";//counter for this shit
 			cbxClass.Text = "Будь-який";
 			cbxDifficult.Text = "Будь-яка";
 
 			InitializeDataGridView();
 			AddQuestions();
+
 		}
 
 		private void InitializeDataGridView()
@@ -228,3 +235,10 @@ namespace ChemTest
 		}
 	}
 }
+/*
+* Copyright (c) by V. Povstenko. All rights reserved.
+* Consult your license regarding permissions and restrictions.
+* Contacts: 
+*	e-mail: vitaly.povstenko@gmail.com,
+*	phone: +38(098)066-14-03(UA).
+*/

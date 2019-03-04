@@ -18,16 +18,18 @@ namespace ChemTest
 		public fStudentExamResultViewer(StudentExamResult examResult)
 		{
 			InitializeComponent();
-			openFileDialog1.InitialDirectory = Environment.SpecialFolder.MyComputer.ToString();
-
-			ser = examResult;
+            
+            openFileDialog1.InitialDirectory = Environment.SpecialFolder.MyComputer.ToString();
+            
+            ser = examResult;
 			InitializeDataGridView();
 			AddRowsDataGridView();
 		}
 		public fStudentExamResultViewer()
 		{
 			InitializeComponent();
-			openFileDialog1.InitialDirectory = Environment.SpecialFolder.MyComputer.ToString();
+            btnOpen.BackgroundImage = Image.FromFile(@"sys\img\btn\add.png");
+            openFileDialog1.InitialDirectory = Environment.SpecialFolder.MyComputer.ToString();
 
 			InitializeDataGridView();
 		}
@@ -96,3 +98,10 @@ namespace ChemTest
 		}
 	}
 }
+/*
+* Copyright (c) by V. Povstenko. All rights reserved.
+* Consult your license regarding permissions and restrictions.
+* Contacts: 
+*	e-mail: vitaly.povstenko@gmail.com,
+*	phone: +38(098)066-14-03(UA).
+*/

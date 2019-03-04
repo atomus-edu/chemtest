@@ -307,7 +307,7 @@
     <value>v1.0</value>
   </data>
   <data name="lblVersion.ToolTip" xml:space="preserve">
-    <value>Номер версіЇ</value>
+    <value>ChemTest v1.0</value>
   </data>
   <data name="&gt;&gt;lblVersion.Name" xml:space="preserve">
     <value>lblVersion</value>

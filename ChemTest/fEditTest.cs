@@ -15,22 +15,27 @@ namespace ChemTest
 	public partial class fEditTest : Form
 	{
 		Questions q;
-		//Questions openQ;
 		List<Task> ts;
 		SaveFileDialog sdialog;
-		OpenFileDialog odialog = new OpenFileDialog();//
+		OpenFileDialog odialog = new OpenFileDialog();
 		public fEditTest()
 		{
 			InitializeComponent();
-			q = new Questions();
-			ts = new List<Task>();
+            q = new Questions();
+            ts = new List<Task>();
+            cbxExam.Enabled = ChemTest.isTeacher;
+
+            // initial images
+            btnReturnToMain.BackgroundImage = Image.FromFile(@"sys\img\btn\back.png");
+            btnSave.BackgroundImage = Image.FromFile(@"sys\img\btn\save.png");
+            btnAdd.BackgroundImage = Image.FromFile(@"sys\img\btn\add.png");
+            btnRmv.BackgroundImage = Image.FromFile(@"sys\img\btn\remove.png");
+            
 			sdialog = saveFileDialog1;
 			odialog = new OpenFileDialog();
 			odialog.Filter = "Тестові файли|*.ct|Вчительські файли|*.ect";
 			OpenQuestionsFromFile();
 			sdialog.FileName = odialog.FileName;
-
-			cbxExam.Enabled = ChemTest.isTeacher;
 		}
 
 		void OpenQuestionsFromFile()
@@ -43,12 +48,14 @@ namespace ChemTest
 				{
 					q = (Questions)serializer.Deserialize(fs);
 					ts = q.tasks;
-					//q.tasks.CopyTo(ts);
-					//q.tasks.Clear();
 					lsbxQuestions.DataSource = null;
 					lsbxQuestions.DataSource = ts;
 				}
 			}
+            else
+            {
+                // maybe close?
+            }
 
 			tbxTheme.Text = q.Theme;
 			cbxSubject.Text = q.Subject;
@@ -70,8 +77,6 @@ namespace ChemTest
 		private void button2_Click(object sender, EventArgs e) // save
 		{
 			q.Title(tbxTheme.Text, cbxSubject.Text, cbxClass.Text, cbxDifficult.Text, ChemTest.name, cbxExam.Checked);
-			//q.tasks.Clear();
-			//q.tasks.AddRange(ts);
 
 			SaveQuestionsToFile();
 			Close();
@@ -138,3 +143,10 @@ namespace ChemTest
 		}
 	}
 }
+/*
+* Copyright (c) by V. Povstenko. All rights reserved.
+* Consult your license regarding permissions and restrictions.
+* Contacts: 
+*	e-mail: vitaly.povstenko@gmail.com,
+*	phone: +38(098)066-14-03(UA).
+*/

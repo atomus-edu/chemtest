@@ -25,9 +25,16 @@ namespace ChemTest
 			q = new Questions();
 			ts = new List<Task>();
 			cbxExam.Enabled = ChemTest.isTeacher;
-		}
 
-		void SaveQuestionsToFile()
+            // initial images
+            btnReturnToMain.BackgroundImage = Image.FromFile(@"sys\img\btn\back.png");
+            btnSave.BackgroundImage = Image.FromFile(@"sys\img\btn\save.png");
+            btnAdd.BackgroundImage = Image.FromFile(@"sys\img\btn\add.png");
+            btnRmv.BackgroundImage = Image.FromFile(@"sys\img\btn\remove.png");
+
+        }
+
+        void SaveQuestionsToFile()
 		{
 			XmlSerializer serializer = new XmlSerializer(typeof(Questions));
 			SaveFileDialog dialog = saveFileDialog1;
@@ -114,3 +121,10 @@ namespace ChemTest
 		}
 	}
 }
+/*
+* Copyright (c) by V. Povstenko. All rights reserved.
+* Consult your license regarding permissions and restrictions.
+* Contacts: 
+*	e-mail: vitaly.povstenko@gmail.com,
+*	phone: +38(098)066-14-03(UA).
+*/

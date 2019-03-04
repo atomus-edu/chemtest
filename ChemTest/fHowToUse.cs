@@ -15,7 +15,9 @@ namespace ChemTest
 		public fHowToUse()
 		{
 			InitializeComponent();
-		}
+            // initial images
+            btnBack.BackgroundImage = Image.FromFile(@"sys\img\btn\back.png");
+        }
 
 		private void button1_Click(object sender, EventArgs e)
 		{
@@ -23,3 +25,10 @@ namespace ChemTest
 		}
 	}
 }
+/*
+* Copyright (c) by V. Povstenko. All rights reserved.
+* Consult your license regarding permissions and restrictions.
+* Contacts: 
+*	e-mail: vitaly.povstenko@gmail.com,
+*	phone: +38(098)066-14-03(UA).
+*/
