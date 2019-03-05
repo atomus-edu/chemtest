@@ -58,12 +58,14 @@
             this.btnResetToDefaults = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pbUser = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage4.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbUser)).BeginInit();
             this.SuspendLayout();
             // 
             // bOk
@@ -170,7 +172,7 @@
             this.btnCheckStudent.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCheckStudent.FlatAppearance.BorderSize = 0;
             this.btnCheckStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCheckStudent.Location = new System.Drawing.Point(315, 43);
+            this.btnCheckStudent.Location = new System.Drawing.Point(317, 99);
             this.btnCheckStudent.Name = "btnCheckStudent";
             this.btnCheckStudent.Size = new System.Drawing.Size(46, 46);
             this.btnCheckStudent.TabIndex = 20;
@@ -184,9 +186,9 @@
             this.btnUpdateQuestionsList.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnUpdateQuestionsList.FlatAppearance.BorderSize = 0;
             this.btnUpdateQuestionsList.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdateQuestionsList.Location = new System.Drawing.Point(345, 8);
+            this.btnUpdateQuestionsList.Location = new System.Drawing.Point(335, 9);
             this.btnUpdateQuestionsList.Name = "btnUpdateQuestionsList";
-            this.btnUpdateQuestionsList.Size = new System.Drawing.Size(20, 20);
+            this.btnUpdateQuestionsList.Size = new System.Drawing.Size(30, 30);
             this.btnUpdateQuestionsList.TabIndex = 10;
             this.toolTip1.SetToolTip(this.btnUpdateQuestionsList, "Оновити список");
             this.btnUpdateQuestionsList.UseVisualStyleBackColor = true;
@@ -196,6 +198,7 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage4);
+            this.tabControl1.Cursor = System.Windows.Forms.Cursors.Default;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -233,7 +236,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 12);
+            this.label1.Location = new System.Drawing.Point(8, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(36, 13);
             this.label1.TabIndex = 9;
@@ -244,21 +247,24 @@
             this.lsbxQuestions.BackColor = System.Drawing.SystemColors.Window;
             this.lsbxQuestions.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lsbxQuestions.FormattingEnabled = true;
-            this.lsbxQuestions.Location = new System.Drawing.Point(9, 34);
+            this.lsbxQuestions.Location = new System.Drawing.Point(9, 45);
             this.lsbxQuestions.Name = "lsbxQuestions";
             this.lsbxQuestions.ScrollAlwaysVisible = true;
-            this.lsbxQuestions.Size = new System.Drawing.Size(356, 288);
+            this.lsbxQuestions.Size = new System.Drawing.Size(356, 275);
             this.lsbxQuestions.TabIndex = 7;
             // 
             // tbxPath
             // 
+            this.tbxPath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbxPath.Location = new System.Drawing.Point(48, 9);
+            this.tbxPath.Multiline = true;
             this.tbxPath.Name = "tbxPath";
-            this.tbxPath.Size = new System.Drawing.Size(291, 20);
+            this.tbxPath.Size = new System.Drawing.Size(281, 30);
             this.tbxPath.TabIndex = 8;
             // 
             // tabPage4
             // 
+            this.tabPage4.Controls.Add(this.pbUser);
             this.tabPage4.Controls.Add(this.btnCheckStudent);
             this.tabPage4.Controls.Add(this.cbRemember);
             this.tabPage4.Controls.Add(this.tbxPassword);
@@ -278,16 +284,18 @@
             // cbRemember
             // 
             this.cbRemember.AutoSize = true;
-            this.cbRemember.Location = new System.Drawing.Point(117, 95);
+            this.cbRemember.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cbRemember.Location = new System.Drawing.Point(119, 151);
             this.cbRemember.Name = "cbRemember";
-            this.cbRemember.Size = new System.Drawing.Size(128, 17);
+            this.cbRemember.Size = new System.Drawing.Size(136, 19);
             this.cbRemember.TabIndex = 19;
             this.cbRemember.Text = "Запам\'ятати пароль";
             this.cbRemember.UseVisualStyleBackColor = true;
             // 
             // tbxPassword
             // 
-            this.tbxPassword.Location = new System.Drawing.Point(78, 69);
+            this.tbxPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbxPassword.Location = new System.Drawing.Point(80, 125);
             this.tbxPassword.Name = "tbxPassword";
             this.tbxPassword.Size = new System.Drawing.Size(224, 20);
             this.tbxPassword.TabIndex = 6;
@@ -295,15 +303,17 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 72);
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label4.Location = new System.Drawing.Point(11, 128);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 13);
+            this.label4.Size = new System.Drawing.Size(52, 15);
             this.label4.TabIndex = 5;
             this.label4.Text = "Пароль:";
             // 
             // tbxName
             // 
-            this.tbxName.Location = new System.Drawing.Point(78, 43);
+            this.tbxName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbxName.Location = new System.Drawing.Point(80, 99);
             this.tbxName.Name = "tbxName";
             this.tbxName.Size = new System.Drawing.Size(224, 20);
             this.tbxName.TabIndex = 4;
@@ -311,9 +321,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 46);
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(11, 102);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.Size = new System.Drawing.Size(69, 15);
             this.label3.TabIndex = 3;
             this.label3.Text = "Повне ім\'я:";
             // 
@@ -321,7 +332,7 @@
             // 
             this.lblUserType.AutoSize = true;
             this.lblUserType.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblUserType.Location = new System.Drawing.Point(140, 13);
+            this.lblUserType.Location = new System.Drawing.Point(151, 70);
             this.lblUserType.Name = "lblUserType";
             this.lblUserType.Size = new System.Drawing.Size(75, 21);
             this.lblUserType.TabIndex = 2;
@@ -330,9 +341,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 19);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(11, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 13);
+            this.label2.Size = new System.Drawing.Size(136, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Тип облікового запису:";
             // 
@@ -363,6 +375,15 @@
             this.panel1.Size = new System.Drawing.Size(381, 45);
             this.panel1.TabIndex = 12;
             // 
+            // pbUser
+            // 
+            this.pbUser.Location = new System.Drawing.Point(161, 10);
+            this.pbUser.Name = "pbUser";
+            this.pbUser.Size = new System.Drawing.Size(48, 48);
+            this.pbUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbUser.TabIndex = 21;
+            this.pbUser.TabStop = false;
+            // 
             // fSettings
             // 
             this.AcceptButton = this.bOk;
@@ -392,6 +413,7 @@
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pbUser)).EndInit();
             this.ResumeLayout(false);
 
 		}
@@ -426,5 +448,6 @@
 		private System.Windows.Forms.Button btnCheckStudent;
 		private System.Windows.Forms.OpenFileDialog openFileDialog1;
 		private System.Windows.Forms.Panel panel1;
-	}
+        private System.Windows.Forms.PictureBox pbUser;
+    }
 }

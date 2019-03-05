@@ -65,7 +65,7 @@
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgwResult.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dgwResult.Location = new System.Drawing.Point(12, 68);
+            this.dgwResult.Location = new System.Drawing.Point(12, 76);
             this.dgwResult.MultiSelect = false;
             this.dgwResult.Name = "dgwResult";
             this.dgwResult.ReadOnly = true;
@@ -79,17 +79,17 @@
             this.dgwResult.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgwResult.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.dgwResult.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgwResult.Size = new System.Drawing.Size(499, 355);
+            this.dgwResult.Size = new System.Drawing.Size(499, 347);
             this.dgwResult.TabIndex = 42;
             // 
             // tbxPath
             // 
             this.tbxPath.BackColor = System.Drawing.SystemColors.Menu;
             this.tbxPath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbxPath.Location = new System.Drawing.Point(12, 12);
+            this.tbxPath.Location = new System.Drawing.Point(12, 21);
             this.tbxPath.Multiline = true;
             this.tbxPath.Name = "tbxPath";
-            this.tbxPath.Size = new System.Drawing.Size(468, 23);
+            this.tbxPath.Size = new System.Drawing.Size(458, 23);
             this.tbxPath.TabIndex = 43;
             // 
             // btnOpen
@@ -98,11 +98,11 @@
             this.btnOpen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnOpen.FlatAppearance.BorderSize = 0;
             this.btnOpen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOpen.Location = new System.Drawing.Point(486, 12);
+            this.btnOpen.Location = new System.Drawing.Point(476, 12);
             this.btnOpen.Name = "btnOpen";
-            this.btnOpen.Size = new System.Drawing.Size(25, 25);
+            this.btnOpen.Size = new System.Drawing.Size(35, 35);
             this.btnOpen.TabIndex = 44;
-            this.toolTip1.SetToolTip(this.btnOpen, "перевірити файл учня");
+            this.toolTip1.SetToolTip(this.btnOpen, "Відкрити файл учня");
             this.btnOpen.UseVisualStyleBackColor = true;
             this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
             // 
@@ -119,7 +119,7 @@
             this.panel1.Controls.Add(this.btnOpen);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(523, 52);
+            this.panel1.Size = new System.Drawing.Size(523, 65);
             this.panel1.TabIndex = 45;
             // 
             // fStudentExamResultViewer

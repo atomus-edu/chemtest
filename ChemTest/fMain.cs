@@ -49,7 +49,7 @@ namespace ChemTest
 
 		private void bExam_Click(object sender, EventArgs e)
 		{
-			fSelectTest st = new fSelectTest();
+			fSelectTest st = new fSelectTest(true);
 			DialogResult stdr = st.ShowDialog();
 			if (stdr== DialogResult.OK)
 			{
@@ -69,7 +69,7 @@ namespace ChemTest
 		}
 		private void bTraining_Click(object sender, EventArgs e)
 		{
-			fSelectTest st = new fSelectTest();
+			fSelectTest st = new fSelectTest(false);
 			DialogResult stdr = st.ShowDialog();
 			if (stdr == DialogResult.OK)
 			{

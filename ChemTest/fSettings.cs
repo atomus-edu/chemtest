@@ -21,6 +21,9 @@ namespace ChemTest
 			InitializeComponent();
             // initial images
             btnUpdateQuestionsList.BackgroundImage = Image.FromFile(@"sys\img\btn\refresh.png");
+            btnCheckStudent.BackgroundImage = Image.FromFile(@"sys\img\btn\check-test.png");
+            pbUser.Image = Image.FromFile(@"sys\img\btn\customer.png");
+
             UpdateFileList();
 			odialog = openFileDialog1;
 			odialog.Filter = "Файл результату|*.res|Всі файли|*.*";
@@ -40,14 +43,16 @@ namespace ChemTest
 			if (ChemTest.isTeacher)
 			{
 				lblUserType.Text = "Вчитель";
-				tbxPassword.Visible = true;
+                pbUser.Image = Image.FromFile(@"sys\img\btn\teacher.png");
+                tbxPassword.Visible = true;
 				label4.Visible = true;
 				cbRemember.Visible = true;
 			}
 			else
 			{
 				lblUserType.Text = "Учень";
-				tbxPassword.Visible = false;
+                pbUser.Image = Image.FromFile(@"sys\img\btn\student.png");
+                tbxPassword.Visible = false;
 				label4.Visible = false;
 				cbRemember.Visible = false;
 			}
@@ -75,8 +80,6 @@ namespace ChemTest
 			ChemTest.shuffleQuest = cbRandomQuest.Checked;
 			ChemTest.shuffleAnsw = cbRandomAnsw.Checked;
 
-			//ChemTest.questionsFolderPath = 
-
 			ChemTest.isTeacher = (lblUserType.Text == "Вчитель");
 
 			ChemTest.name = tbxName.Text;
@@ -103,7 +106,6 @@ namespace ChemTest
 			if (MessageBox.Show("Ви впевнені, що хочете забути всі налаштування? Всі ваші дані, паролі та налаштування буде скинуто до початкового стану!", "Увага!", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
 			{
 				string regKeyName = @"Software\Atomus\ChemTest";
-
 				RegistryKey rk = null;
 
 				try
@@ -127,27 +129,27 @@ namespace ChemTest
 				}
 				ChemTest.ReadSettings();
 				SetDefault();
+                Application.Exit();
 			}
 			
 		}
 
 		private void btnCheckStudent_Click(object sender, EventArgs e)
 		{
-			//StudentExamResult ser= new StudentExamResult();
+            StudentExamResult ser = new StudentExamResult();
 
-			//XmlSerializer serializer = new XmlSerializer(typeof(StudentExamResult));
+            XmlSerializer serializer = new XmlSerializer(typeof(StudentExamResult));
 
-			//if (odialog.ShowDialog() == DialogResult.OK)
-			//{
-			//	using (Stream fs = File.OpenRead(odialog.FileName))
-			//	{
-			//		ser = (StudentExamResult)serializer.Deserialize(fs);
-			//	}
-			//}
+            if (odialog.ShowDialog() == DialogResult.OK)
+            {
+                using (Stream fs = File.OpenRead(odialog.FileName))
+                {
+                    ser = (StudentExamResult)serializer.Deserialize(fs);
+                }
+                fStudentExamResultViewer fserv = new fStudentExamResultViewer(ser, Path.GetFullPath(openFileDialog1.FileName));
 
-			fStudentExamResultViewer fserv = new fStudentExamResultViewer();
-
-			fserv.ShowDialog();
+                fserv.ShowDialog();
+            }
 		}
 	}
 }

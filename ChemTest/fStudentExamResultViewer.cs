@@ -15,12 +15,13 @@ namespace ChemTest
 	public partial class fStudentExamResultViewer : Form
 	{
 		StudentExamResult ser;
-		public fStudentExamResultViewer(StudentExamResult examResult)
+		public fStudentExamResultViewer(StudentExamResult examResult, string path)
 		{
 			InitializeComponent();
-            
+            btnOpen.BackgroundImage = Image.FromFile(@"sys\img\btn\open.png");
             openFileDialog1.InitialDirectory = Environment.SpecialFolder.MyComputer.ToString();
-            
+
+            tbxPath.Text = path;
             ser = examResult;
 			InitializeDataGridView();
 			AddRowsDataGridView();
@@ -36,8 +37,6 @@ namespace ChemTest
 
 		private void InitializeDataGridView()
 		{
-			//dgwQuestions = new DataGridView();
-
 			var column1 = new DataGridViewColumn();
 			column1.HeaderText = "Параметр"; //текст в шапке
 			column1.Width = 300;

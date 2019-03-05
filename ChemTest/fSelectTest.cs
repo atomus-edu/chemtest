@@ -20,32 +20,31 @@ namespace ChemTest
 		DirectoryInfo dir; // папка с файлами 
 		int cntr = 0;//fuck
 
-		public fSelectTest()
+		public fSelectTest(bool isExam)
 		{
 			InitializeComponent();
 			qs = new List<Questions>();
 			fqs = new List<Questions>();
 			dir = new DirectoryInfo(@"sys\questions"); // папка с файлами 
+
             // initial images
             btnReturnToMain.BackgroundImage = Image.FromFile(@"sys\img\btn\back.png");
             btnOK.BackgroundImage = Image.FromFile(@"sys\img\btn\ok.png");
             btnAdd.BackgroundImage = Image.FromFile(@"sys\img\btn\add.png");
-            btnOpen.BackgroundImage = Image.FromFile(@"sys\img\btn\add.png");//change later
-
+            btnOpen.BackgroundImage = Image.FromFile(@"sys\img\btn\open-teacher.png");//change later
 
             cbxSubject.Text = "Будь-який";//counter for this shit
 			cbxClass.Text = "Будь-який";
 			cbxDifficult.Text = "Будь-яка";
 
+            btnOpen.Visible = isExam;
+
 			InitializeDataGridView();
 			AddQuestions();
-
 		}
 
 		private void InitializeDataGridView()
 		{
-			//dgwQuestions = new DataGridView();
-
 			var column1 = new DataGridViewColumn();
 			column1.HeaderText = "Тема"; //текст в шапке
 			column1.Width = 434; //ширина колонки

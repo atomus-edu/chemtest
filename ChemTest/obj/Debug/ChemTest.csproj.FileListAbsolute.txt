@@ -39,3 +39,4 @@ C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTes
 C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.csproj.CoreCompileInputs.cache
 C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.exe
 C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.pdb
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Debug\ChemTest.csprojAssemblyReference.cache

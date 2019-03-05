@@ -16,6 +16,10 @@ namespace ChemTest
 		{
 			InitializeComponent();
 			ChemTest.ReadSettings();
+
+            btnTeacher.BackgroundImage = Image.FromFile(@"sys\img\btn\teacher.png");
+            btnStudent.BackgroundImage = Image.FromFile(@"sys\img\btn\student.png");
+            btnOK.BackgroundImage = Image.FromFile(@"sys\img\btn\next.png");
 		}
 
 		private void btnStudent_Click(object sender, EventArgs e)
@@ -24,7 +28,10 @@ namespace ChemTest
 			btnStudent.Visible = false;
 			btnTeacher.Visible = false;
 
-			lblName.Visible = true;
+            lblStudent.Visible = false;
+            lblTeacher.Visible = false;
+
+            lblName.Visible = true;
 			tbxName.Visible = true;
 
 			btnOK.Visible = true;
@@ -36,7 +43,10 @@ namespace ChemTest
 			btnStudent.Visible = false;
 			btnTeacher.Visible = false;
 
-			lblName.Visible = true;
+            lblStudent.Visible = false;
+            lblTeacher.Visible = false;
+
+            lblName.Visible = true;
 			tbxName.Visible = true;
 			lblPassword.Visible = true;
 			tbxPassword.Visible = true;
@@ -61,7 +71,7 @@ namespace ChemTest
 			else
 				DialogResult = DialogResult.OK;
 		}
-	}
+    }
 }
 /*
 * Copyright (c) by V. Povstenko. All rights reserved.
