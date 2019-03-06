@@ -42,7 +42,7 @@ namespace ChemTest
             bAboutUs.Image = Image.FromFile(@"sys\img\btn\info.png");
             bExit.Image = Image.FromFile(@"sys\img\btn\exit.png");
 
-            btnBackToMenu.Image = Image.FromFile(@"sys\img\btn\back.png");
+            btnBackToMenu.Image = Image.FromFile(@"sys\img\btn\back-small.png");
             btnNewTest.Image = Image.FromFile(@"sys\img\btn\add-test.png");
             btnEditTest.Image = Image.FromFile(@"sys\img\btn\edit-test.png");
         }

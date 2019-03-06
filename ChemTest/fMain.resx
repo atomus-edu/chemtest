@@ -125,7 +125,7 @@
   <data name="bExam.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7CAAAOwgEVKEqAAAAAAWJL
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7BAAAOwQG4kWvtAAAAAWJL
         R0QTDLtclgAAAAd0SU1FB+MDBhAEBTbvdHsAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTktMDMtMDZUMTU6
         MDQ6MDUrMDE6MDBHmkifAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE5LTAzLTA2VDE1OjA0OjA1KzAxOjAw
         NsfwIwAAAwNJREFUSEvdlUtME1EUhi9ESViJuMSd7ogYAqWYiBAepfKYUiKYgGAIBSI1JfJoOwqKIfgI
@@ -203,7 +203,7 @@
     <value>Тренування</value>
   </data>
   <data name="bTraining.ToolTip" xml:space="preserve">
-    <value>Тренеруйтесь на обраних тестах</value>
+    <value>Тренуйтесь на обраних тестах</value>
   </data>
   <data name="&gt;&gt;bTraining.Name" xml:space="preserve">
     <value>bTraining</value>
