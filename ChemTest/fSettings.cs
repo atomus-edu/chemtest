@@ -38,21 +38,20 @@ namespace ChemTest
 			cbRandomAnsw.Checked = ChemTest.shuffleAnsw;
 			cbRandomQuest.Checked = ChemTest.shuffleQuest;
 
-			if (ChemTest.isTeacher)
+            tbxPassword.Visible = ChemTest.isTeacher;
+            label4.Visible = ChemTest.isTeacher;
+            cbRemember.Visible = ChemTest.isTeacher;
+            btnCheckStudent.Visible = ChemTest.isTeacher;
+
+            if (ChemTest.isTeacher)
 			{
 				lblUserType.Text = "Вчитель";
                 pbUser.Image = Image.FromFile(@"sys\img\btn\teacher.png");
-                tbxPassword.Visible = true;
-				label4.Visible = true;
-				cbRemember.Visible = true;
 			}
 			else
 			{
 				lblUserType.Text = "Учень";
                 pbUser.Image = Image.FromFile(@"sys\img\btn\student.png");
-                tbxPassword.Visible = false;
-				label4.Visible = false;
-				cbRemember.Visible = false;
 			}
 
 			tbxName.Text = ChemTest.name;
@@ -69,7 +68,6 @@ namespace ChemTest
 				lsbxQuestions.Items.Add(Path.GetFileName(file.FullName));
 			}
 		}
-
 
 		private void bOk_Click(object sender, EventArgs e)
 		{
@@ -91,11 +89,6 @@ namespace ChemTest
 		{
 			SetDefault();
 			this.Hide();
-		}
-
-		private void button1_Click(object sender, EventArgs e)
-		{
-			UpdateFileList();
 		}
 
 		private void btnResetToDefaults_Click(object sender, EventArgs e)
@@ -128,7 +121,6 @@ namespace ChemTest
 				SetDefault();
                 Application.Exit();
 			}
-			
 		}
 
 		private void btnCheckStudent_Click(object sender, EventArgs e)
