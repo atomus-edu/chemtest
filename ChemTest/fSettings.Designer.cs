@@ -48,6 +48,7 @@
             this.lsbxQuestions = new System.Windows.Forms.ListBox();
             this.tbxPath = new System.Windows.Forms.TextBox();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.pbUser = new System.Windows.Forms.PictureBox();
             this.cbRemember = new System.Windows.Forms.CheckBox();
             this.tbxPassword = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -58,14 +59,13 @@
             this.btnResetToDefaults = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pbUser = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage4.SuspendLayout();
-            this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbUser)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // bOk
@@ -192,6 +192,7 @@
             this.btnUpdateQuestionsList.TabIndex = 10;
             this.toolTip1.SetToolTip(this.btnUpdateQuestionsList, "Оновити список");
             this.btnUpdateQuestionsList.UseVisualStyleBackColor = true;
+            this.btnUpdateQuestionsList.Click += new System.EventHandler(this.btnUpdateQuestionsList_Click);
             // 
             // tabControl1
             // 
@@ -280,6 +281,15 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Користувач";
             this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // pbUser
+            // 
+            this.pbUser.Location = new System.Drawing.Point(161, 10);
+            this.pbUser.Name = "pbUser";
+            this.pbUser.Size = new System.Drawing.Size(48, 48);
+            this.pbUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbUser.TabIndex = 21;
+            this.pbUser.TabStop = false;
             // 
             // cbRemember
             // 
@@ -375,15 +385,6 @@
             this.panel1.Size = new System.Drawing.Size(381, 45);
             this.panel1.TabIndex = 12;
             // 
-            // pbUser
-            // 
-            this.pbUser.Location = new System.Drawing.Point(161, 10);
-            this.pbUser.Name = "pbUser";
-            this.pbUser.Size = new System.Drawing.Size(48, 48);
-            this.pbUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbUser.TabIndex = 21;
-            this.pbUser.TabStop = false;
-            // 
             // fSettings
             // 
             this.AcceptButton = this.bOk;
@@ -402,7 +403,6 @@
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Налаштування";
-            this.Load += new System.EventHandler(this.fSettings_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.tabControl1.ResumeLayout(false);
@@ -412,8 +412,8 @@
             this.tabPage2.PerformLayout();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
-            this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pbUser)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
 		}

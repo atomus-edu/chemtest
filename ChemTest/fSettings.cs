@@ -24,14 +24,12 @@ namespace ChemTest
             btnCheckStudent.BackgroundImage = Image.FromFile(@"sys\img\btn\check-test.png");
             pbUser.Image = Image.FromFile(@"sys\img\btn\customer.png");
 
+            SetDefault();
+            tbxPath.Text = ChemTest.questionsFolderPath;
+
             UpdateFileList();
 			odialog = openFileDialog1;
 			odialog.Filter = "Файл результату|*.res|Всі файли|*.*";
-		}
-		private void fSettings_Load(object sender, EventArgs e)
-		{
-			SetDefault();
-			tbxPath.Text = ChemTest.questionsFolderPath;
 		}
 
 		private void SetDefault()
@@ -57,7 +55,6 @@ namespace ChemTest
 				cbRemember.Visible = false;
 			}
 
-
 			tbxName.Text = ChemTest.name;
 			tbxPassword.Text = ChemTest.teacherPassword;
 			cbRemember.Checked = ChemTest.rememberPassword;
@@ -65,7 +62,7 @@ namespace ChemTest
 		private void UpdateFileList()
 		{
 			lsbxQuestions.Items.Clear();
-			var dir = new DirectoryInfo(ChemTest.questionsFolderPath); // папка с файлами 
+			var dir = new DirectoryInfo(tbxPath.Text); // папка с файлами 
 
 			foreach (FileInfo file in dir.GetFiles("*.ct"))
 			{
@@ -151,7 +148,12 @@ namespace ChemTest
                 fserv.ShowDialog();
             }
 		}
-	}
+
+        private void btnUpdateQuestionsList_Click(object sender, EventArgs e)
+        {
+            UpdateFileList();
+        }
+    }
 }
 /*
 * Copyright (c) by V. Povstenko. All rights reserved.

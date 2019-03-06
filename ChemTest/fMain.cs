@@ -105,7 +105,7 @@ namespace ChemTest
 		private void bExit_Click(object sender, EventArgs e)
 		{
 			if (MessageBox.Show("Ви впевнені, що хочете вийти?", "Вихід", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
-				Close();
+				Application.Exit();
 		}
 
 		private void btnAddQuestions_Click(object sender, EventArgs e)

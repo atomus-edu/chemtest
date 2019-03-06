@@ -17,8 +17,8 @@ namespace ChemTest
 			InitializeComponent();
 			ChemTest.ReadSettings();
 
-            btnTeacher.BackgroundImage = Image.FromFile(@"sys\img\btn\teacher.png");
-            btnStudent.BackgroundImage = Image.FromFile(@"sys\img\btn\student.png");
+            btnTeacher.Image = Image.FromFile(@"sys\img\btn\teacher.png");
+            btnStudent.Image = Image.FromFile(@"sys\img\btn\student.png");
             btnOK.BackgroundImage = Image.FromFile(@"sys\img\btn\next.png");
 		}
 
@@ -27,9 +27,6 @@ namespace ChemTest
 			ChemTest.isTeacher = false;
 			btnStudent.Visible = false;
 			btnTeacher.Visible = false;
-
-            lblStudent.Visible = false;
-            lblTeacher.Visible = false;
 
             lblName.Visible = true;
 			tbxName.Visible = true;
@@ -42,9 +39,6 @@ namespace ChemTest
 			ChemTest.isTeacher = true;
 			btnStudent.Visible = false;
 			btnTeacher.Visible = false;
-
-            lblStudent.Visible = false;
-            lblTeacher.Visible = false;
 
             lblName.Visible = true;
 			tbxName.Visible = true;

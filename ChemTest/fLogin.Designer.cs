@@ -39,8 +39,6 @@
             this.tbxPassword = new System.Windows.Forms.TextBox();
             this.btnOK = new System.Windows.Forms.Button();
             this.cbRemember = new System.Windows.Forms.CheckBox();
-            this.lblStudent = new System.Windows.Forms.Label();
-            this.lblTeacher = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
@@ -61,12 +59,15 @@
             this.btnStudent.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnStudent.FlatAppearance.BorderSize = 0;
             this.btnStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStudent.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnStudent.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnStudent.Location = new System.Drawing.Point(73, 54);
+            this.btnStudent.Location = new System.Drawing.Point(60, 54);
             this.btnStudent.Name = "btnStudent";
-            this.btnStudent.Size = new System.Drawing.Size(48, 48);
+            this.btnStudent.Size = new System.Drawing.Size(80, 80);
             this.btnStudent.TabIndex = 12;
             this.btnStudent.Tag = "student";
+            this.btnStudent.Text = "Учень";
+            this.btnStudent.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.toolTip1.SetToolTip(this.btnStudent, "Ввійти як учень");
             this.btnStudent.UseVisualStyleBackColor = false;
             this.btnStudent.Click += new System.EventHandler(this.btnStudent_Click);
@@ -78,12 +79,15 @@
             this.btnTeacher.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTeacher.FlatAppearance.BorderSize = 0;
             this.btnTeacher.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTeacher.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnTeacher.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btnTeacher.Location = new System.Drawing.Point(205, 54);
+            this.btnTeacher.Location = new System.Drawing.Point(185, 54);
             this.btnTeacher.Name = "btnTeacher";
-            this.btnTeacher.Size = new System.Drawing.Size(48, 48);
+            this.btnTeacher.Size = new System.Drawing.Size(80, 80);
             this.btnTeacher.TabIndex = 11;
             this.btnTeacher.Tag = "teacher";
+            this.btnTeacher.Text = "Вчитель";
+            this.btnTeacher.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.toolTip1.SetToolTip(this.btnTeacher, "Ввійти як вчитель");
             this.btnTeacher.UseVisualStyleBackColor = false;
             this.btnTeacher.Click += new System.EventHandler(this.btnTeacher_Click);
@@ -160,34 +164,12 @@
             this.toolTip1.SetToolTip(this.cbRemember, "Запам\'ятати мій вибір");
             this.cbRemember.UseVisualStyleBackColor = true;
             // 
-            // lblStudent
-            // 
-            this.lblStudent.AutoSize = true;
-            this.lblStudent.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblStudent.Location = new System.Drawing.Point(76, 105);
-            this.lblStudent.Name = "lblStudent";
-            this.lblStudent.Size = new System.Drawing.Size(40, 15);
-            this.lblStudent.TabIndex = 19;
-            this.lblStudent.Text = "Учень";
-            // 
-            // lblTeacher
-            // 
-            this.lblTeacher.AutoSize = true;
-            this.lblTeacher.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.lblTeacher.Location = new System.Drawing.Point(204, 105);
-            this.lblTeacher.Name = "lblTeacher";
-            this.lblTeacher.Size = new System.Drawing.Size(52, 15);
-            this.lblTeacher.TabIndex = 20;
-            this.lblTeacher.Text = "Вчитель";
-            // 
             // fLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(324, 176);
-            this.Controls.Add(this.lblTeacher);
-            this.Controls.Add(this.lblStudent);
             this.Controls.Add(this.cbRemember);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.lblPassword);
@@ -221,8 +203,6 @@
 		private System.Windows.Forms.TextBox tbxPassword;
 		private System.Windows.Forms.Button btnOK;
 		private System.Windows.Forms.CheckBox cbRemember;
-        private System.Windows.Forms.Label lblStudent;
-        private System.Windows.Forms.Label lblTeacher;
         private System.Windows.Forms.ToolTip toolTip1;
     }
 }
