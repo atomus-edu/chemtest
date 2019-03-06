@@ -121,15 +121,40 @@
   <data name="bExam.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bExam.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7CAAAOwgEVKEqAAAAAAWJL
+        R0QTDLtclgAAAAd0SU1FB+MDBhAEBTbvdHsAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTktMDMtMDZUMTU6
+        MDQ6MDUrMDE6MDBHmkifAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE5LTAzLTA2VDE1OjA0OjA1KzAxOjAw
+        NsfwIwAAAwNJREFUSEvdlUtME1EUhi9ESViJuMSd7ogYAqWYiBAepfKYUiKYgGAIBSI1JfJoOwqKIfgI
+        j9KkUUtbY9xQl7pTN8AGV65058ZEdy5MTEzUkOv/35nWsYWWuHSSL6f3nnP+c+65k6kQ/+0TCCXErUhM
+        BNbiIgho1Rr7//wEQxBYXVeCpmgJbAXEaY09+hF3oEdXSTGTuNDDjylSBkbBJvhiWq7LTH86h/lZT3At
+        KvSQEjI6Cq0XwpaDefAO7AJpgWvu019uxqtcQydq1AhEEpgju4VwKF4MWw+i4FOGoFXc+ptxjK8385Ue
+        dc15xkrh7AXPwde9RAOhmPSvRJWoHk6kscQyj/m9EKeeEveDHfBjv04pNjp7V7YPjkm3xyf7fEE5HFyQ
+        3tvL8tr9SGZR6lDPT/Ek4EXtd2y1P7X0QI7N3ZODU3Oy58qU1IbG5fl+j3T2eWQHinaPTMj+CV2OoQn/
+        6jr1kri8WBF+VINl8CEYTuyy072KWcfBMU0vPZS+xbVU0V3XkPdjndb7+aJ3xvV08+0hiqu5e/WImFl+
+        dHJgcnZ7fH5J4g1Qc811IvpZhOO5PH1zy3N90WZvdb2uamorb3D3GW+MHo6LIf+8kFKKGoeWPNvZo449
+        cmNRoqBZJFXIuEzu0884xiNvo6KupQTir8Ap8OeV5wIUgGeAwfJMWzdmOsyu5CQujqeg5Zr79DOO8SAJ
+        SnOJF6bEzQSVXOvskk0XBtClV1muLaIpcTaVS1xLd54Stxah4B6i1s6PIv5l9lgcmrA7uzgaH/iZKZ5n
+        zfir4BjYAtUZM4e4MfdiMALegG95ROnfAR5wGLSD78D/lziv1hTHCVhE4/zOmR2twD4BG6blmp3Cr+L4
+        lvG+4mYz2zxF1heypgWjaeZ40icRtSh2uqlDVDV3FlQ2dqh1uhEKGxRh74Up/h72eM7vvN2BIg43ujIF
+        aIFd4QZdKt/mTDdyCaK/wJ3KxtaCA/2J5Auy4ZSqe4frCIQXwImsmecTyeVPjammRSuyNWiius4lfgON
+        ILajSsBaNwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="bExam.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
   <data name="bExam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bExam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 145</value>
+    <value>319, 132</value>
   </data>
   <data name="bExam.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>165, 27</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="bExam.TabIndex" type="System.Int32, mscorlib">
@@ -154,19 +179,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bExam.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>11</value>
   </data>
   <data name="bTraining.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="bTraining.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="bTraining.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="bTraining.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 174</value>
+    <value>319, 165</value>
   </data>
   <data name="bTraining.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>165, 27</value>
   </data>
   <data name="bTraining.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -187,19 +215,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bTraining.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>10</value>
   </data>
   <data name="bHowToUse.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="bHowToUse.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="bHowToUse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="bHowToUse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 261</value>
+    <value>319, 264</value>
   </data>
   <data name="bHowToUse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>165, 27</value>
   </data>
   <data name="bHowToUse.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -220,19 +251,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bHowToUse.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>9</value>
   </data>
   <data name="bAboutUs.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="bAboutUs.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="bAboutUs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="bAboutUs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 291</value>
+    <value>319, 297</value>
   </data>
   <data name="bAboutUs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>165, 27</value>
   </data>
   <data name="bAboutUs.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -253,19 +287,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bAboutUs.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>8</value>
   </data>
   <data name="bExit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="bExit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="bExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="bExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 320</value>
+    <value>319, 330</value>
   </data>
   <data name="bExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>165, 27</value>
   </data>
   <data name="bExit.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -286,7 +323,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bExit.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>7</value>
   </data>
   <data name="lblVersion.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -319,19 +356,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblVersion.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>6</value>
   </data>
   <data name="bSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="bSettings.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="bSettings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="bSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 232</value>
+    <value>319, 231</value>
   </data>
   <data name="bSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>165, 27</value>
   </data>
   <data name="bSettings.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -352,19 +392,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;bSettings.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>5</value>
   </data>
   <data name="btnAddQuestions.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnAddQuestions.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="btnAddQuestions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnAddQuestions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 203</value>
+    <value>319, 198</value>
   </data>
   <data name="btnAddQuestions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>165, 27</value>
   </data>
   <data name="btnAddQuestions.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -385,229 +428,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnAddQuestions.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="pbTraining.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbTraining.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbTraining.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 174</value>
-  </data>
-  <data name="pbTraining.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="pbTraining.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbTraining.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;pbTraining.Name" xml:space="preserve">
-    <value>pbTraining</value>
-  </data>
-  <data name="&gt;&gt;pbTraining.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbTraining.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pbTraining.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="pbExam.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbExam.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbExam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 145</value>
-  </data>
-  <data name="pbExam.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="pbExam.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbExam.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;pbExam.Name" xml:space="preserve">
-    <value>pbExam</value>
-  </data>
-  <data name="&gt;&gt;pbExam.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbExam.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pbExam.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="pbCreate.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbCreate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbCreate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 203</value>
-  </data>
-  <data name="pbCreate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="pbCreate.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbCreate.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;pbCreate.Name" xml:space="preserve">
-    <value>pbCreate</value>
-  </data>
-  <data name="&gt;&gt;pbCreate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbCreate.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pbCreate.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="pbSettings.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbSettings.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 232</value>
-  </data>
-  <data name="pbSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="pbSettings.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;pbSettings.Name" xml:space="preserve">
-    <value>pbSettings</value>
-  </data>
-  <data name="&gt;&gt;pbSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbSettings.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pbSettings.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="pbHowToUse.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbHowToUse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbHowToUse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 261</value>
-  </data>
-  <data name="pbHowToUse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="pbHowToUse.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbHowToUse.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;pbHowToUse.Name" xml:space="preserve">
-    <value>pbHowToUse</value>
-  </data>
-  <data name="&gt;&gt;pbHowToUse.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbHowToUse.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pbHowToUse.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="pbAbout.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbAbout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 291</value>
-  </data>
-  <data name="pbAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="pbAbout.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;pbAbout.Name" xml:space="preserve">
-    <value>pbAbout</value>
-  </data>
-  <data name="&gt;&gt;pbAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbAbout.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pbAbout.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="pbExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbExit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 320</value>
-  </data>
-  <data name="pbExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="pbExit.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbExit.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;pbExit.Name" xml:space="preserve">
-    <value>pbExit</value>
-  </data>
-  <data name="&gt;&gt;pbExit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbExit.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pbExit.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>4</value>
   </data>
   <data name="btnBackToMenu.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnBackToMenu.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="btnBackToMenu.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnBackToMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 145</value>
+    <value>319, 132</value>
   </data>
   <data name="btnBackToMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>165, 27</value>
   </data>
   <data name="btnBackToMenu.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -631,19 +467,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnBackToMenu.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>2</value>
   </data>
   <data name="btnNewTest.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnNewTest.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="btnNewTest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnNewTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 174</value>
+    <value>319, 165</value>
   </data>
   <data name="btnNewTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>165, 27</value>
   </data>
   <data name="btnNewTest.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -667,19 +506,22 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnNewTest.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>1</value>
   </data>
   <data name="btnEditTest.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
+  </data>
+  <data name="btnEditTest.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
   </data>
   <data name="btnEditTest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="btnEditTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 203</value>
+    <value>319, 198</value>
   </data>
   <data name="btnEditTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>118, 23</value>
+    <value>165, 27</value>
   </data>
   <data name="btnEditTest.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>
@@ -703,7 +545,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnEditTest.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>0</value>
   </data>
   <data name="pbLogo.Location" type="System.Drawing.Point, System.Drawing">
     <value>258, 36</value>
@@ -727,7 +569,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pbLogo.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>3</value>
   </data>
   <data name="pbBackground.Location" type="System.Drawing.Point, System.Drawing">
     <value>274, 266</value>
@@ -751,106 +593,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pbBackground.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="pbBack.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbBack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbBack.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 145</value>
-  </data>
-  <data name="pbBack.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="pbBack.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbBack.TabIndex" type="System.Int32, mscorlib">
-    <value>27</value>
-  </data>
-  <data name="pbBack.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pbBack.Name" xml:space="preserve">
-    <value>pbBack</value>
-  </data>
-  <data name="&gt;&gt;pbBack.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbBack.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pbBack.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="pbNewTest.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbNewTest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbNewTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 174</value>
-  </data>
-  <data name="pbNewTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="pbNewTest.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbNewTest.TabIndex" type="System.Int32, mscorlib">
-    <value>28</value>
-  </data>
-  <data name="pbNewTest.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pbNewTest.Name" xml:space="preserve">
-    <value>pbNewTest</value>
-  </data>
-  <data name="&gt;&gt;pbNewTest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbNewTest.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pbNewTest.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="pbEditTest.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbEditTest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="pbEditTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>314, 203</value>
-  </data>
-  <data name="pbEditTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 23</value>
-  </data>
-  <data name="pbEditTest.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="pbEditTest.TabIndex" type="System.Int32, mscorlib">
-    <value>29</value>
-  </data>
-  <data name="pbEditTest.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;pbEditTest.Name" xml:space="preserve">
-    <value>pbEditTest</value>
-  </data>
-  <data name="&gt;&gt;pbEditTest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pbEditTest.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pbEditTest.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>12</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

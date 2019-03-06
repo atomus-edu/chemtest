@@ -31,21 +31,21 @@ namespace ChemTest
 			ft = new fTraining();
 			fs = new fSettings();
 
-			pbLogo.Image = new Bitmap(@"sys\img\chemtest logo light blue.png");
-			pbBackground.Image = new Bitmap(@"sys\img\background.jpg");
+			pbLogo.Image = Image.FromFile(@"sys\img\chemtest logo light blue.png");
+			pbBackground.Image = Image.FromFile(@"sys\img\background.jpg");
 
-			pbExam.Image = new Bitmap(@"sys\img\btn\exam.png");
-			pbTraining.Image = new Bitmap(@"sys\img\btn\training.png");
-			pbCreate.Image = new Bitmap(@"sys\img\btn\add-test.png");
-			pbSettings.Image = new Bitmap(@"sys\img\btn\settings.png");
-			pbHowToUse.Image = new Bitmap(@"sys\img\btn\question.png");
-			pbAbout.Image = new Bitmap(@"sys\img\btn\info.png");
-			pbExit.Image = new Bitmap(@"sys\img\btn\exit.png");
+            bExam.Image = Image.FromFile(@"sys\img\btn\exam.png");
+            bTraining.Image = Image.FromFile(@"sys\img\btn\training.png");
+            btnAddQuestions.Image = Image.FromFile(@"sys\img\btn\add-test.png");
+            bSettings.Image = Image.FromFile(@"sys\img\btn\settings.png");
+            bHowToUse.Image = Image.FromFile(@"sys\img\btn\question.png");
+            bAboutUs.Image = Image.FromFile(@"sys\img\btn\info.png");
+            bExit.Image = Image.FromFile(@"sys\img\btn\exit.png");
 
-			pbBack.Image = new Bitmap(@"sys\img\btn\back.png");
-			pbNewTest.Image = new Bitmap(@"sys\img\btn\add-test.png");
-			pbEditTest.Image = new Bitmap(@"sys\img\btn\edit-test.png");
-		}
+            btnBackToMenu.Image = Image.FromFile(@"sys\img\btn\back.png");
+            btnNewTest.Image = Image.FromFile(@"sys\img\btn\add-test.png");
+            btnEditTest.Image = Image.FromFile(@"sys\img\btn\edit-test.png");
+        }
 
 		private void bExam_Click(object sender, EventArgs e)
 		{
@@ -119,24 +119,10 @@ namespace ChemTest
 			bAboutUs.Visible = false;
 			bExit.Visible = false;
 
-			//hide all icons
-			pbExam.Visible = false;
-			pbTraining.Visible = false;
-			pbCreate.Visible = false;
-			pbSettings.Visible = false;
-			pbHowToUse.Visible = false;
-			pbAbout.Visible = false;
-			pbExit.Visible = false;
-
 			//show second menu buttons
 			btnBackToMenu.Visible = true;
 			btnNewTest.Visible = true;
 			btnEditTest.Visible = true;
-
-			//show second menu icons
-			pbBack.Visible = true;
-			pbNewTest.Visible = true;
-			pbEditTest.Visible = true;
 		}
 		private void btnBackToMenu_Click(object sender, EventArgs e)
 		{
@@ -144,11 +130,6 @@ namespace ChemTest
 			btnBackToMenu.Visible = false;
 			btnNewTest.Visible = false;
 			btnEditTest.Visible = false;
-
-			//hide all icons
-			pbBack.Visible = false;
-			pbNewTest.Visible = false;
-			pbEditTest.Visible = false;
 
 			//show first menu buttons
 			bExam.Visible = true;
@@ -158,16 +139,6 @@ namespace ChemTest
 			bHowToUse.Visible = true;
 			bAboutUs.Visible = true;
 			bExit.Visible = true;
-
-			//show first menu icons
-			pbExam.Visible = true;
-			pbTraining.Visible = true;
-			pbCreate.Visible = true;
-			pbSettings.Visible = true;
-			pbHowToUse.Visible = true;
-			pbAbout.Visible = true;
-			pbExit.Visible = true;
-			
 		}
 		private void btnNewTest_Click(object sender, EventArgs e)
 		{

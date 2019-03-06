@@ -38,34 +38,14 @@
             this.lblVersion = new System.Windows.Forms.Label();
             this.bSettings = new System.Windows.Forms.Button();
             this.btnAddQuestions = new System.Windows.Forms.Button();
-            this.pbTraining = new System.Windows.Forms.PictureBox();
-            this.pbExam = new System.Windows.Forms.PictureBox();
-            this.pbCreate = new System.Windows.Forms.PictureBox();
-            this.pbSettings = new System.Windows.Forms.PictureBox();
-            this.pbHowToUse = new System.Windows.Forms.PictureBox();
-            this.pbAbout = new System.Windows.Forms.PictureBox();
-            this.pbExit = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnBackToMenu = new System.Windows.Forms.Button();
             this.btnNewTest = new System.Windows.Forms.Button();
             this.btnEditTest = new System.Windows.Forms.Button();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.pbBackground = new System.Windows.Forms.PictureBox();
-            this.pbBack = new System.Windows.Forms.PictureBox();
-            this.pbNewTest = new System.Windows.Forms.PictureBox();
-            this.pbEditTest = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pbTraining)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbExam)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCreate)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHowToUse)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAbout)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbExit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbBackground)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBack)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbNewTest)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbEditTest)).BeginInit();
             this.SuspendLayout();
             // 
             // bExam
@@ -154,48 +134,6 @@
             this.btnAddQuestions.UseVisualStyleBackColor = false;
             this.btnAddQuestions.Click += new System.EventHandler(this.btnAddQuestions_Click);
             // 
-            // pbTraining
-            // 
-            resources.ApplyResources(this.pbTraining, "pbTraining");
-            this.pbTraining.Name = "pbTraining";
-            this.pbTraining.TabStop = false;
-            // 
-            // pbExam
-            // 
-            resources.ApplyResources(this.pbExam, "pbExam");
-            this.pbExam.Name = "pbExam";
-            this.pbExam.TabStop = false;
-            // 
-            // pbCreate
-            // 
-            resources.ApplyResources(this.pbCreate, "pbCreate");
-            this.pbCreate.Name = "pbCreate";
-            this.pbCreate.TabStop = false;
-            // 
-            // pbSettings
-            // 
-            resources.ApplyResources(this.pbSettings, "pbSettings");
-            this.pbSettings.Name = "pbSettings";
-            this.pbSettings.TabStop = false;
-            // 
-            // pbHowToUse
-            // 
-            resources.ApplyResources(this.pbHowToUse, "pbHowToUse");
-            this.pbHowToUse.Name = "pbHowToUse";
-            this.pbHowToUse.TabStop = false;
-            // 
-            // pbAbout
-            // 
-            resources.ApplyResources(this.pbAbout, "pbAbout");
-            this.pbAbout.Name = "pbAbout";
-            this.pbAbout.TabStop = false;
-            // 
-            // pbExit
-            // 
-            resources.ApplyResources(this.pbExit, "pbExit");
-            this.pbExit.Name = "pbExit";
-            this.pbExit.TabStop = false;
-            // 
             // btnBackToMenu
             // 
             this.btnBackToMenu.BackColor = System.Drawing.SystemColors.ButtonFace;
@@ -243,43 +181,15 @@
             this.pbBackground.Name = "pbBackground";
             this.pbBackground.TabStop = false;
             // 
-            // pbBack
-            // 
-            resources.ApplyResources(this.pbBack, "pbBack");
-            this.pbBack.Name = "pbBack";
-            this.pbBack.TabStop = false;
-            // 
-            // pbNewTest
-            // 
-            resources.ApplyResources(this.pbNewTest, "pbNewTest");
-            this.pbNewTest.Name = "pbNewTest";
-            this.pbNewTest.TabStop = false;
-            // 
-            // pbEditTest
-            // 
-            resources.ApplyResources(this.pbEditTest, "pbEditTest");
-            this.pbEditTest.Name = "pbEditTest";
-            this.pbEditTest.TabStop = false;
-            // 
             // fMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.Controls.Add(this.pbEditTest);
-            this.Controls.Add(this.pbNewTest);
-            this.Controls.Add(this.pbBack);
             this.Controls.Add(this.btnEditTest);
             this.Controls.Add(this.btnNewTest);
             this.Controls.Add(this.btnBackToMenu);
             this.Controls.Add(this.pbLogo);
-            this.Controls.Add(this.pbExit);
-            this.Controls.Add(this.pbAbout);
-            this.Controls.Add(this.pbHowToUse);
-            this.Controls.Add(this.pbSettings);
-            this.Controls.Add(this.pbCreate);
-            this.Controls.Add(this.pbTraining);
-            this.Controls.Add(this.pbExam);
             this.Controls.Add(this.btnAddQuestions);
             this.Controls.Add(this.bSettings);
             this.Controls.Add(this.lblVersion);
@@ -292,18 +202,8 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.Name = "fMain";
-            ((System.ComponentModel.ISupportInitialize)(this.pbTraining)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbExam)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbCreate)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbSettings)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbHowToUse)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbAbout)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbBackground)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbBack)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbNewTest)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbEditTest)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -319,22 +219,12 @@
 		private System.Windows.Forms.Label lblVersion;
 		private System.Windows.Forms.Button bSettings;
 		private System.Windows.Forms.Button btnAddQuestions;
-		private System.Windows.Forms.PictureBox pbExam;
-		private System.Windows.Forms.PictureBox pbTraining;
-		private System.Windows.Forms.PictureBox pbCreate;
-		private System.Windows.Forms.PictureBox pbSettings;
-		private System.Windows.Forms.PictureBox pbHowToUse;
-		private System.Windows.Forms.PictureBox pbAbout;
-		private System.Windows.Forms.PictureBox pbExit;
 		private System.Windows.Forms.ToolTip toolTip1;
 		private System.Windows.Forms.PictureBox pbLogo;
 		private System.Windows.Forms.PictureBox pbBackground;
 		private System.Windows.Forms.Button btnBackToMenu;
 		private System.Windows.Forms.Button btnNewTest;
 		private System.Windows.Forms.Button btnEditTest;
-		private System.Windows.Forms.PictureBox pbBack;
-		private System.Windows.Forms.PictureBox pbNewTest;
-		private System.Windows.Forms.PictureBox pbEditTest;
 	}
 }
 
