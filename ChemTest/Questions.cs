@@ -11,14 +11,13 @@ namespace ChemTest
 		public string Author { get; set; }
 		public bool isTeachersExam { get; set; }
 
-
-
 		public List<Task> tasks;// list of tasks
 
 		public Questions()
 		{
 			tasks = new List<Task>();
 		}
+
 		public void Title(string theme, string subject, string clas, string difficult, string author, bool isExam)
 		{
 			Theme = theme;
@@ -31,7 +30,7 @@ namespace ChemTest
 
 		public override string ToString()
 		{
-			return $"{Theme} / {Subject} {Class} кл / {Difficult}";
+			return Theme;
 		}
 	}
 }

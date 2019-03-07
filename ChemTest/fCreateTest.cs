@@ -12,8 +12,6 @@ using System.Xml.Serialization;
 
 namespace ChemTest
 {
-
-
 	public partial class CreateTest : Form
 	{
 		Questions q;
@@ -31,7 +29,6 @@ namespace ChemTest
             btnSave.BackgroundImage = Image.FromFile(@"sys\img\btn\save.png");
             btnAdd.BackgroundImage = Image.FromFile(@"sys\img\btn\add.png");
             btnRmv.BackgroundImage = Image.FromFile(@"sys\img\btn\remove.png");
-
         }
 
         void SaveQuestionsToFile()
@@ -42,7 +39,6 @@ namespace ChemTest
 			dialog.Filter = "Тестові файли|*.ct|Всі файли|*.*";
 			if (cbxExam.Checked)
 				dialog.Filter = "Файл від вчителя|*.ect|Всі файли|*.*";
-
 
 			if (tbxTheme.Text == "")
 				dialog.FileName = "Новий тест";
@@ -113,11 +109,6 @@ namespace ChemTest
 					lsbxQuestions.DataSource = ts;
 				}
 			}
-		}
-
-		private void CreateTest_Load(object sender, EventArgs e)
-		{
-
 		}
 	}
 }

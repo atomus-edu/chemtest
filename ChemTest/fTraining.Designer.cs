@@ -35,7 +35,6 @@
             this.rbVariant2 = new System.Windows.Forms.RadioButton();
             this.rbVariant3 = new System.Windows.Forms.RadioButton();
             this.lblCurrent = new System.Windows.Forms.Label();
-            this.lblPreTraining = new System.Windows.Forms.Label();
             this.lblWrong = new System.Windows.Forms.Label();
             this.lblRight = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
@@ -50,6 +49,7 @@
             this.lblQuestion = new System.Windows.Forms.TextBox();
             this.lblInfo = new System.Windows.Forms.TextBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.lblPreTraining = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbTimer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbWrong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRight)).BeginInit();
@@ -125,15 +125,6 @@
             this.lblCurrent.Text = "0/0";
             this.toolTip1.SetToolTip(this.lblCurrent, "Номер питання");
             this.lblCurrent.Visible = false;
-            // 
-            // lblPreTraining
-            // 
-            this.lblPreTraining.AutoSize = true;
-            this.lblPreTraining.Location = new System.Drawing.Point(263, 194);
-            this.lblPreTraining.Name = "lblPreTraining";
-            this.lblPreTraining.Size = new System.Drawing.Size(255, 13);
-            this.lblPreTraining.TabIndex = 9;
-            this.lblPreTraining.Text = "Натисніть ОК, щоб розпочати тренувальний тест";
             // 
             // lblWrong
             // 
@@ -237,7 +228,6 @@
             this.pbRight.TabStop = false;
             this.toolTip1.SetToolTip(this.pbRight, "Кількість правильних відповідей");
             this.pbRight.Visible = false;
-            this.pbRight.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnTimeStop
             // 
@@ -289,6 +279,19 @@
             this.lblInfo.TabIndex = 21;
             this.lblInfo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // lblPreTraining
+            // 
+            this.lblPreTraining.BackColor = System.Drawing.SystemColors.Control;
+            this.lblPreTraining.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lblPreTraining.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblPreTraining.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblPreTraining.Location = new System.Drawing.Point(15, 186);
+            this.lblPreTraining.Name = "lblPreTraining";
+            this.lblPreTraining.Size = new System.Drawing.Size(773, 26);
+            this.lblPreTraining.TabIndex = 22;
+            this.lblPreTraining.Text = "Theme";
+            this.lblPreTraining.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // fTraining
             // 
             this.AcceptButton = this.btnOk;
@@ -297,6 +300,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.CancelButton = this.btnReturnToMain;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblPreTraining);
             this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.pbTimer);
             this.Controls.Add(this.pbWrong);
@@ -305,7 +309,6 @@
             this.Controls.Add(this.lblTimeCounter);
             this.Controls.Add(this.lblRight);
             this.Controls.Add(this.lblWrong);
-            this.Controls.Add(this.lblPreTraining);
             this.Controls.Add(this.lblCurrent);
             this.Controls.Add(this.rbVariant3);
             this.Controls.Add(this.rbVariant2);
@@ -340,7 +343,6 @@
 		private System.Windows.Forms.RadioButton rbVariant2;
 		private System.Windows.Forms.RadioButton rbVariant3;
 		private System.Windows.Forms.Label lblCurrent;
-		private System.Windows.Forms.Label lblPreTraining;
 		private System.Windows.Forms.Label lblWrong;
 		private System.Windows.Forms.Label lblRight;
 		private System.Windows.Forms.ProgressBar progressBar1;
@@ -354,5 +356,6 @@
 		private System.Windows.Forms.TextBox lblQuestion;
 		private System.Windows.Forms.TextBox lblInfo;
 		private System.Windows.Forms.ToolTip toolTip1;
-	}
+        private System.Windows.Forms.TextBox lblPreTraining;
+    }
 }

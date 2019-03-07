@@ -85,11 +85,6 @@ namespace ChemTest
 			}
 		}
 
-		private void fStudentExamResultViewer_Load(object sender, EventArgs e)
-		{
-
-		}
-
 		private void btnOpen_Click(object sender, EventArgs e)
 		{
 			OpenFile();

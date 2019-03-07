@@ -1,16 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ChemTest
 {
-	public partial class fTraining : Form
+    public partial class fTraining : Form
 	{
 		public Training t;
 		int timerMinCounter = 0;
@@ -26,14 +20,21 @@ namespace ChemTest
             // initial images
             btnTimeStop.BackgroundImage = Image.FromFile(@"sys\img\btn\pause.png");
             btnReturnToMain.BackgroundImage = Image.FromFile(@"sys\img\btn\back.png");
-            btnOk.BackgroundImage = Image.FromFile(@"sys\img\btn\ok.png");
+            btnOk.BackgroundImage = Image.FromFile(@"sys\img\btn\next.png");
             pbTimer.Image = Image.FromFile(@"sys\img\btn\stopwatch.png");
             pbRight.Image = Image.FromFile(@"sys\img\btn\ok.png");
             pbWrong.Image = Image.FromFile(@"sys\img\btn\delete.png");
         }
+        private void fTraining_Load(object sender, EventArgs e)
+        {
+            t = new Training();
+            t.tasks = q.tasks;
+            t.Shuffle();
+            lblPreTraining.Text = $"{q.Theme}";
+        }
 
-		// set default elements to default position after exit
-		private void DefaultPosition()
+        // set default elements to default position after exit
+        private void DefaultPosition()
 		{
 			// unchecking variants
 			rbVariant1.Checked = false;
@@ -233,13 +234,6 @@ namespace ChemTest
 			Close();
 		}
 
-		private void fTraining_Load(object sender, EventArgs e)
-		{
-			t = new Training();
-			t.tasks = q.tasks;
-			t.Shuffle();
-		}
-
 		private void timer_Tick(object sender, EventArgs e)
 		{
 			if(timerSecCounter < 60)
@@ -282,12 +276,7 @@ namespace ChemTest
 			progressBar1.Value = 0;
 			lblInfo.Text = "";
 		}
-
-		private void pictureBox1_Click(object sender, EventArgs e)
-		{
-
-		}
-	}
+    }
 }
 /*
 * Copyright (c) by V. Povstenko. All rights reserved.

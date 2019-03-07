@@ -1,13 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ChemTest
 {
-
-	public abstract class Test
+    public abstract class Test
 	{
 		public List<Task> tasks;// list of tasks
 
@@ -25,16 +21,16 @@ namespace ChemTest
 			get { return wrongAnsw; }
 		}
 
-		public Test()
-		{
-			tasks = new List<Task>();
+		//public Test()
+		//{
+		//	tasks = new List<Task>();
 
-			Shuffle();
+		//	Shuffle();
 
-			Current = 0;
-			rightAnsw = 0;
-			wrongAnsw = 0;
-		}
+		//	Current = 0;
+		//	rightAnsw = 0;
+		//	wrongAnsw = 0;
+		//}
 
 		// returns shuffled list
 		public void Shuffle()
@@ -57,7 +53,6 @@ namespace ChemTest
 			}
 			else
 				return tasks;
-			
 
 			return list;
 		}
@@ -68,7 +63,6 @@ namespace ChemTest
 			{
 				Random r = new Random();
 				List<string> variants;// list of variants
-
 
 				foreach (Task item in list)// work with 1 question oin each iteration
 				{

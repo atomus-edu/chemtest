@@ -1,19 +1,13 @@
 ﻿using Microsoft.Win32;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 
 namespace ChemTest
 {
-	public partial class fSettings : Form
+    public partial class fSettings : Form
 	{
 		OpenFileDialog odialog;
 		public fSettings()
@@ -82,13 +76,13 @@ namespace ChemTest
 			ChemTest.rememberPassword = cbRemember.Checked;
 
 			ChemTest.WriteSettings();
-			this.Hide();
+			Hide();
 		}
 
 		private void bCancel_Click(object sender, EventArgs e)
 		{
 			SetDefault();
-			this.Hide();
+			Hide();
 		}
 
 		private void btnResetToDefaults_Click(object sender, EventArgs e)

@@ -199,7 +199,7 @@
             this.Controls.Add(this.bTraining);
             this.Controls.Add(this.bExam);
             this.Controls.Add(this.pbBackground);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "fMain";
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();

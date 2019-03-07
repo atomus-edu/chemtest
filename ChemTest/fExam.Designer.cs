@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fExam));
             this.btnOk = new System.Windows.Forms.Button();
-            this.lblPreExam = new System.Windows.Forms.Label();
             this.lblCurrent = new System.Windows.Forms.Label();
             this.rbVariant3 = new System.Windows.Forms.RadioButton();
             this.rbVariant2 = new System.Windows.Forms.RadioButton();
@@ -44,6 +43,7 @@
             this.lblTimeCounter = new System.Windows.Forms.Label();
             this.lblQuestion = new System.Windows.Forms.TextBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.lblPreExam = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbTimer)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -61,15 +61,6 @@
             this.btnOk.TabIndex = 0;
             this.btnOk.UseVisualStyleBackColor = true;
             this.btnOk.Click += new System.EventHandler(this.bOk_Click);
-            // 
-            // lblPreExam
-            // 
-            this.lblPreExam.AutoSize = true;
-            this.lblPreExam.Location = new System.Drawing.Point(263, 194);
-            this.lblPreExam.Name = "lblPreExam";
-            this.lblPreExam.Size = new System.Drawing.Size(250, 13);
-            this.lblPreExam.TabIndex = 17;
-            this.lblPreExam.Text = "Натисніть ОК, щоб розпочати контрольний тест";
             // 
             // lblCurrent
             // 
@@ -203,15 +194,28 @@
             this.lblQuestion.Text = "Question ?";
             this.lblQuestion.Visible = false;
             // 
+            // lblPreExam
+            // 
+            this.lblPreExam.BackColor = System.Drawing.SystemColors.Control;
+            this.lblPreExam.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.lblPreExam.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblPreExam.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold);
+            this.lblPreExam.Location = new System.Drawing.Point(15, 212);
+            this.lblPreExam.Name = "lblPreExam";
+            this.lblPreExam.Size = new System.Drawing.Size(773, 26);
+            this.lblPreExam.TabIndex = 24;
+            this.lblPreExam.Text = "Theme";
+            this.lblPreExam.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // fExam
             // 
             this.AcceptButton = this.btnOk;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblPreExam);
             this.Controls.Add(this.pbTimer);
             this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.lblPreExam);
             this.Controls.Add(this.lblCurrent);
             this.Controls.Add(this.rbVariant3);
             this.Controls.Add(this.rbVariant2);
@@ -238,7 +242,6 @@
 		#endregion
 
 		private System.Windows.Forms.Button btnOk;
-		private System.Windows.Forms.Label lblPreExam;
 		private System.Windows.Forms.Label lblCurrent;
 		private System.Windows.Forms.RadioButton rbVariant3;
 		private System.Windows.Forms.RadioButton rbVariant2;
@@ -251,5 +254,6 @@
 		private System.Windows.Forms.Button bReturnToMain;
 		private System.Windows.Forms.TextBox lblQuestion;
 		private System.Windows.Forms.ToolTip toolTip1;
-	}
+        private System.Windows.Forms.TextBox lblPreExam;
+    }
 }

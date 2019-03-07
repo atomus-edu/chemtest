@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ChemTest
 {
-	public class StudentExamResult
+    public class StudentExamResult
 	{
 		public string name;
 		public DateTime date;
@@ -18,10 +14,7 @@ namespace ChemTest
 		public float rightPurc;
 		public float wrongPurc;
 
-		public StudentExamResult()
-		{
-
-		}
+		public StudentExamResult() {}
 
 		public StudentExamResult(string studentName, int minutes, int seconds, int studentMark, int rightAnsw, int wrongAnsw, float rightAnswPurc, float wrongAnswPurc)
 		{

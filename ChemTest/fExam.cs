@@ -1,16 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ChemTest
 {
-	public partial class fExam : Form
+    public partial class fExam : Form
 	{
 		public Exam ex;
 		int timerMinCounter = 0;
@@ -35,7 +29,8 @@ namespace ChemTest
 			ex = new Exam();
 			ex.tasks = q.tasks;
 			ex.Shuffle();
-		}
+            lblPreExam.Text = $"{q.Theme}";
+        }
 
 		private void bOk_Click(object sender, EventArgs ea)
 		{
@@ -110,7 +105,6 @@ namespace ChemTest
 					timer.Stop();
 					// show total result message
 					ex.GetResult(timerMinCounter, timerSecCounter, withFile);
-					//MessageBox.Show($"Ваш час: {timerMinCounter}.{timerSecCounter} хв.\n" + ex.GetResult(timerMinCounter, timerSecCounter), "Результат", MessageBoxButtons.OK, MessageBoxIcon.None);
 
 					// unchecking variants
 					rbVariant1.Checked = false;

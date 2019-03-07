@@ -1,18 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 
 namespace ChemTest
 {
-	public partial class fEditTest : Form
+    public partial class fEditTest : Form
 	{
 		Questions q;
 		List<Task> ts;
@@ -138,7 +133,6 @@ namespace ChemTest
 					rbtnVar2.Checked = true;
 				else if (ts[lsbxQuestions.SelectedIndex].Answer == tbxVar3.Text)
 					rbtnVar3.Checked = true;
-
 			}
 		}
 	}

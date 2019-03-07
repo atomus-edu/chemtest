@@ -221,6 +221,7 @@
             this.Controls.Add(this.pbAtomus);
             this.Controls.Add(this.pbChemTest);
             this.Controls.Add(this.label17);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -229,7 +230,6 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Про програму ChemTest";
-            this.Load += new System.EventHandler(this.fAboutChemTest_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbAtomus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbChemTest)).EndInit();
             this.groupBox1.ResumeLayout(false);

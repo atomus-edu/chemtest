@@ -1,18 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 
 namespace ChemTest
 {
-	public partial class fSelectTest : Form
+    public partial class fSelectTest : Form
 	{
 		List<Questions> qs;
 		List<Questions> fqs;// filtred

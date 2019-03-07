@@ -2,28 +2,12 @@
 {
 	public class Task
 	{
-		//ChemTest//////////|-|D|X|/
-		////////////////////////////
-		//						  //
-		//	 Question?			  //
-		//						  //
-		// ( ) Variant1			  //
-		// (*) Variant2			  //
-		// ( ) Variant3			  //
-		//					  OK  //
-		////////////////////////////
-
-		
 		public string Question { get; set; }
 		public string Variant1 { get; set; }
 		public string Variant2 { get; set; }
 		public string Variant3 { get; set; }
 		public string Answer { get; set; }
 
-		public Task()
-		{
-
-		}
 		public Task(string question, string variant1, string variant2, string variant3, string answer)
 		{
 			Question = question;

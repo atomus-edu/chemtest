@@ -210,6 +210,7 @@
             this.Controls.Add(this.tbxTitle);
             this.Controls.Add(this.tbxText);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "fExamResult";
             this.ShowInTaskbar = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
