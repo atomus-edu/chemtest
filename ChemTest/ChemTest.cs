@@ -11,7 +11,7 @@ namespace ChemTest
 		static public bool shuffleAnsw = false;// answers on random
 		static public bool isTeacher = false;
 		static public string name = "Користувач";
-		static public string teacherPassword = "1234";
+		static public string teacherPassword = "ct1admin";
 		static public bool rememberPassword = false;
 		static public bool isFirstStartup = true;
 		static public string questionsFolderPath = Application.StartupPath + @"\sys\questions";
