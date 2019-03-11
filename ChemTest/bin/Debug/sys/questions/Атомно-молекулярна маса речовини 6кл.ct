@@ -16,7 +16,14 @@
       <Answer>найменша частинка речовини, що зберігає її властивості</Answer>
     </Task>
     <Task>
-      <Question>Позначте визначення відностной атомної маси</Question>
+      <Question>Позначте порядковий номер елемента Х, що утворює речовину ХО з відносною молекулярною масою 30</Question>
+      <Variant1>6</Variant1>
+      <Variant2>7</Variant2>
+      <Variant3>14</Variant3>
+      <Answer>7</Answer>
+    </Task>
+    <Task>
+      <Question>Позначте визначення відносної атомної маси</Question>
       <Variant1>найменша маса речовини, яка обумовлює її властивості</Variant1>
       <Variant2>маса одного моля речовини</Variant2>
       <Variant3>число, що дорівнює відношеню маси атома елемента до 1/12 атома Карбону</Variant3>
@@ -24,24 +31,17 @@
     </Task>
     <Task>
       <Question>Позначте визначення атомної одиниці маси</Question>
-      <Variant1>1/2 маси фтома нуклыда Карбону-12</Variant1>
+      <Variant1>1/2 маси атома нуклiда Карбону-12</Variant1>
       <Variant2>Маса атома нукліда Карбону-12</Variant2>
       <Variant3>1/12 маси атома нукліда Карбону-12</Variant3>
       <Answer>1/12 маси атома нукліда Карбону-12</Answer>
     </Task>
     <Task>
-      <Question>Позначте відносну атомну масу ортофосфатної кислоти</Question>
+      <Question>Позначте відносну молекулярну масу ортофосфатної кислоти</Question>
       <Variant1>95</Variant1>
       <Variant2>105</Variant2>
       <Variant3>98</Variant3>
       <Answer>98</Answer>
-    </Task>
-    <Task>
-      <Question>Позначте порядковий номер елемента Х, що утворює речовину ХО з відносною молекулярною масою 30</Question>
-      <Variant1>6</Variant1>
-      <Variant2>7</Variant2>
-      <Variant3>14</Variant3>
-      <Answer>7</Answer>
     </Task>
   </tasks>
   <Theme>Атомно-молекулярна будова речовини</Theme>
