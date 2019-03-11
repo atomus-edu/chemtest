@@ -97,6 +97,7 @@
             // 
             this.groupBox1.Controls.Add(this.cbRandomAnsw);
             this.groupBox1.Controls.Add(this.cbRandomQuest);
+            this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.groupBox1.Location = new System.Drawing.Point(8, 6);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(357, 68);
@@ -109,9 +110,10 @@
             // 
             this.cbRandomAnsw.AutoSize = true;
             this.cbRandomAnsw.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbRandomAnsw.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cbRandomAnsw.Location = new System.Drawing.Point(7, 43);
             this.cbRandomAnsw.Name = "cbRandomAnsw";
-            this.cbRandomAnsw.Size = new System.Drawing.Size(69, 17);
+            this.cbRandomAnsw.Size = new System.Drawing.Size(74, 17);
             this.cbRandomAnsw.TabIndex = 1;
             this.cbRandomAnsw.Text = "Відповіді";
             this.toolTip1.SetToolTip(this.cbRandomAnsw, "Відтворювати варіанти відповідей у видковому порядку");
@@ -122,9 +124,10 @@
             this.cbRandomQuest.AutoSize = true;
             this.cbRandomQuest.BackColor = System.Drawing.SystemColors.Window;
             this.cbRandomQuest.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbRandomQuest.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cbRandomQuest.Location = new System.Drawing.Point(7, 20);
             this.cbRandomQuest.Name = "cbRandomQuest";
-            this.cbRandomQuest.Size = new System.Drawing.Size(69, 17);
+            this.cbRandomQuest.Size = new System.Drawing.Size(72, 17);
             this.cbRandomQuest.TabIndex = 0;
             this.cbRandomQuest.Text = "Питання";
             this.toolTip1.SetToolTip(this.cbRandomQuest, "Відтворювати питання у видкавовому порядку");
@@ -133,6 +136,7 @@
             // lblExamDuration
             // 
             this.lblExamDuration.AutoSize = true;
+            this.lblExamDuration.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblExamDuration.Location = new System.Drawing.Point(7, 83);
             this.lblExamDuration.Name = "lblExamDuration";
             this.lblExamDuration.Size = new System.Drawing.Size(118, 13);
@@ -143,6 +147,7 @@
             // cbExamDuration
             // 
             this.cbExamDuration.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cbExamDuration.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cbExamDuration.FormattingEnabled = true;
             this.cbExamDuration.Items.AddRange(new object[] {
             "1",
@@ -161,6 +166,7 @@
             // lblMin
             // 
             this.lblMin.AutoSize = true;
+            this.lblMin.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblMin.Location = new System.Drawing.Point(174, 83);
             this.lblMin.Name = "lblMin";
             this.lblMin.Size = new System.Drawing.Size(21, 13);
@@ -200,6 +206,7 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.tabControl1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -239,7 +246,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(8, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(36, 13);
+            this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 9;
             this.label1.Text = "Шлях:";
             // 
@@ -307,7 +314,7 @@
             this.tbxPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbxPassword.Location = new System.Drawing.Point(80, 125);
             this.tbxPassword.Name = "tbxPassword";
-            this.tbxPassword.Size = new System.Drawing.Size(224, 20);
+            this.tbxPassword.Size = new System.Drawing.Size(224, 22);
             this.tbxPassword.TabIndex = 6;
             // 
             // label4
@@ -325,7 +332,7 @@
             this.tbxName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tbxName.Location = new System.Drawing.Point(80, 99);
             this.tbxName.Name = "tbxName";
-            this.tbxName.Size = new System.Drawing.Size(224, 20);
+            this.tbxName.Size = new System.Drawing.Size(224, 22);
             this.tbxName.TabIndex = 4;
             // 
             // label3

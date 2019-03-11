@@ -50,9 +50,11 @@
             this.lblInfo = new System.Windows.Forms.TextBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.lblPreTraining = new System.Windows.Forms.TextBox();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pbTimer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbWrong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRight)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnOk
@@ -73,10 +75,10 @@
             // 
             this.rbVariant1.AutoSize = true;
             this.rbVariant1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbVariant1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.rbVariant1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbVariant1.Location = new System.Drawing.Point(15, 225);
             this.rbVariant1.Name = "rbVariant1";
-            this.rbVariant1.Size = new System.Drawing.Size(91, 24);
+            this.rbVariant1.Size = new System.Drawing.Size(91, 25);
             this.rbVariant1.TabIndex = 3;
             this.rbVariant1.TabStop = true;
             this.rbVariant1.Text = "Variant 1";
@@ -88,10 +90,10 @@
             // 
             this.rbVariant2.AutoSize = true;
             this.rbVariant2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbVariant2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.rbVariant2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbVariant2.Location = new System.Drawing.Point(15, 255);
             this.rbVariant2.Name = "rbVariant2";
-            this.rbVariant2.Size = new System.Drawing.Size(91, 24);
+            this.rbVariant2.Size = new System.Drawing.Size(91, 25);
             this.rbVariant2.TabIndex = 4;
             this.rbVariant2.TabStop = true;
             this.rbVariant2.Text = "Variant 2";
@@ -103,10 +105,10 @@
             // 
             this.rbVariant3.AutoSize = true;
             this.rbVariant3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rbVariant3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.rbVariant3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.rbVariant3.Location = new System.Drawing.Point(15, 285);
             this.rbVariant3.Name = "rbVariant3";
-            this.rbVariant3.Size = new System.Drawing.Size(91, 24);
+            this.rbVariant3.Size = new System.Drawing.Size(91, 25);
             this.rbVariant3.TabIndex = 5;
             this.rbVariant3.TabStop = true;
             this.rbVariant3.Text = "Variant 3";
@@ -118,9 +120,10 @@
             // 
             this.lblCurrent.AutoSize = true;
             this.lblCurrent.BackColor = System.Drawing.Color.Transparent;
+            this.lblCurrent.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblCurrent.Location = new System.Drawing.Point(12, 420);
             this.lblCurrent.Name = "lblCurrent";
-            this.lblCurrent.Size = new System.Drawing.Size(24, 13);
+            this.lblCurrent.Size = new System.Drawing.Size(23, 13);
             this.lblCurrent.TabIndex = 6;
             this.lblCurrent.Text = "0/0";
             this.toolTip1.SetToolTip(this.lblCurrent, "Номер питання");
@@ -130,6 +133,7 @@
             // 
             this.lblWrong.AutoSize = true;
             this.lblWrong.BackColor = System.Drawing.SystemColors.Window;
+            this.lblWrong.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblWrong.Location = new System.Drawing.Point(584, 14);
             this.lblWrong.Name = "lblWrong";
             this.lblWrong.Size = new System.Drawing.Size(13, 13);
@@ -142,6 +146,7 @@
             // 
             this.lblRight.AutoSize = true;
             this.lblRight.BackColor = System.Drawing.SystemColors.Window;
+            this.lblRight.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblRight.Location = new System.Drawing.Point(477, 14);
             this.lblRight.Name = "lblRight";
             this.lblRight.Size = new System.Drawing.Size(13, 13);
@@ -164,6 +169,7 @@
             // 
             this.lblTimeCounter.AutoSize = true;
             this.lblTimeCounter.BackColor = System.Drawing.SystemColors.Window;
+            this.lblTimeCounter.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblTimeCounter.Location = new System.Drawing.Point(377, 14);
             this.lblTimeCounter.Name = "lblTimeCounter";
             this.lblTimeCounter.Size = new System.Drawing.Size(22, 13);
@@ -249,6 +255,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Window;
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 46);
@@ -259,7 +266,7 @@
             this.lblQuestion.BackColor = System.Drawing.SystemColors.Control;
             this.lblQuestion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.lblQuestion.Cursor = System.Windows.Forms.Cursors.Default;
-            this.lblQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.lblQuestion.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.lblQuestion.Location = new System.Drawing.Point(15, 83);
             this.lblQuestion.Multiline = true;
             this.lblQuestion.Name = "lblQuestion";
@@ -291,6 +298,15 @@
             this.lblPreTraining.TabIndex = 22;
             this.lblPreTraining.Text = "Theme";
             this.lblPreTraining.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 45);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(800, 1);
+            this.panel2.TabIndex = 49;
             // 
             // fTraining
             // 
@@ -330,6 +346,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pbTimer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbWrong)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRight)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -357,5 +374,6 @@
 		private System.Windows.Forms.TextBox lblInfo;
 		private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.TextBox lblPreTraining;
+        private System.Windows.Forms.Panel panel2;
     }
 }

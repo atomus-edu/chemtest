@@ -60,6 +60,7 @@
             // 
             // tbxQuestion
             // 
+            this.tbxQuestion.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxQuestion.Location = new System.Drawing.Point(12, 112);
             this.tbxQuestion.Multiline = true;
             this.tbxQuestion.Name = "tbxQuestion";
@@ -70,9 +71,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(12, 96);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 13);
+            this.label1.Size = new System.Drawing.Size(68, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "Запитання:";
             // 
@@ -118,25 +120,28 @@
             // 
             // tbxVar1
             // 
+            this.tbxVar1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxVar1.Location = new System.Drawing.Point(33, 283);
             this.tbxVar1.Name = "tbxVar1";
-            this.tbxVar1.Size = new System.Drawing.Size(482, 20);
+            this.tbxVar1.Size = new System.Drawing.Size(482, 23);
             this.tbxVar1.TabIndex = 17;
             this.toolTip1.SetToolTip(this.tbxVar1, "Напишіть варіант для запитання");
             // 
             // tbxVar3
             // 
+            this.tbxVar3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxVar3.Location = new System.Drawing.Point(33, 355);
             this.tbxVar3.Name = "tbxVar3";
-            this.tbxVar3.Size = new System.Drawing.Size(482, 20);
+            this.tbxVar3.Size = new System.Drawing.Size(482, 23);
             this.tbxVar3.TabIndex = 18;
             this.toolTip1.SetToolTip(this.tbxVar3, "Напишіть варіант для запитання");
             // 
             // tbxVar2
             // 
+            this.tbxVar2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxVar2.Location = new System.Drawing.Point(33, 319);
             this.tbxVar2.Name = "tbxVar2";
-            this.tbxVar2.Size = new System.Drawing.Size(482, 20);
+            this.tbxVar2.Size = new System.Drawing.Size(482, 23);
             this.tbxVar2.TabIndex = 19;
             this.toolTip1.SetToolTip(this.tbxVar2, "Напишіть варіант для запитання");
             // 
@@ -144,18 +149,20 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.Window;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(312, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(36, 15);
             this.label2.TabIndex = 22;
             this.label2.Text = "Клас:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(12, 258);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(109, 13);
+            this.label3.Size = new System.Drawing.Size(118, 15);
             this.label3.TabIndex = 23;
             this.label3.Text = "Варіанти відповідей:";
             // 
@@ -163,9 +170,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.Window;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.Location = new System.Drawing.Point(540, 50);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.Size = new System.Drawing.Size(70, 15);
             this.label4.TabIndex = 24;
             this.label4.Text = "Складність:";
             // 
@@ -173,6 +181,7 @@
             // 
             this.cbxClass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbxClass.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxClass.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cbxClass.FormattingEnabled = true;
             this.cbxClass.Items.AddRange(new object[] {
             "5",
@@ -185,7 +194,7 @@
             "12"});
             this.cbxClass.Location = new System.Drawing.Point(353, 47);
             this.cbxClass.Name = "cbxClass";
-            this.cbxClass.Size = new System.Drawing.Size(120, 21);
+            this.cbxClass.Size = new System.Drawing.Size(120, 23);
             this.cbxClass.TabIndex = 25;
             this.toolTip1.SetToolTip(this.cbxClass, "Оберіть клас для тесту");
             // 
@@ -193,9 +202,10 @@
             // 
             this.tbxTheme.BackColor = System.Drawing.SystemColors.Menu;
             this.tbxTheme.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbxTheme.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tbxTheme.Location = new System.Drawing.Point(44, 12);
             this.tbxTheme.Name = "tbxTheme";
-            this.tbxTheme.Size = new System.Drawing.Size(705, 20);
+            this.tbxTheme.Size = new System.Drawing.Size(705, 23);
             this.tbxTheme.TabIndex = 26;
             this.toolTip1.SetToolTip(this.tbxTheme, "Напишіть тему тесту");
             // 
@@ -203,6 +213,7 @@
             // 
             this.cbxDifficult.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbxDifficult.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxDifficult.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cbxDifficult.FormattingEnabled = true;
             this.cbxDifficult.Items.AddRange(new object[] {
             "Легкий",
@@ -211,7 +222,7 @@
             "Дуже Складний"});
             this.cbxDifficult.Location = new System.Drawing.Point(612, 47);
             this.cbxDifficult.Name = "cbxDifficult";
-            this.cbxDifficult.Size = new System.Drawing.Size(120, 21);
+            this.cbxDifficult.Size = new System.Drawing.Size(120, 23);
             this.cbxDifficult.TabIndex = 27;
             this.toolTip1.SetToolTip(this.cbxDifficult, "Оберіть складність тесту");
             // 
@@ -219,6 +230,7 @@
             // 
             this.cbxSubject.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbxSubject.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxSubject.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cbxSubject.FormattingEnabled = true;
             this.cbxSubject.Items.AddRange(new object[] {
             "Хімія",
@@ -231,7 +243,7 @@
             "Інший"});
             this.cbxSubject.Location = new System.Drawing.Point(115, 47);
             this.cbxSubject.Name = "cbxSubject";
-            this.cbxSubject.Size = new System.Drawing.Size(120, 21);
+            this.cbxSubject.Size = new System.Drawing.Size(120, 23);
             this.cbxSubject.TabIndex = 29;
             this.toolTip1.SetToolTip(this.cbxSubject, "Оберіть предмет для тесту");
             // 
@@ -239,9 +251,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.Window;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(54, 50);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 13);
+            this.label5.Size = new System.Drawing.Size(58, 15);
             this.label5.TabIndex = 28;
             this.label5.Text = "Предмет:";
             // 
@@ -337,9 +350,10 @@
             this.cbxExam.AutoSize = true;
             this.cbxExam.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbxExam.Enabled = false;
+            this.cbxExam.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cbxExam.Location = new System.Drawing.Point(13, 421);
             this.cbxExam.Name = "cbxExam";
-            this.cbxExam.Size = new System.Drawing.Size(111, 17);
+            this.cbxExam.Size = new System.Drawing.Size(120, 19);
             this.cbxExam.TabIndex = 37;
             this.cbxExam.Text = "Робота на оцінку";
             this.toolTip1.SetToolTip(this.cbxExam, "Зробити оцінювальний тест");

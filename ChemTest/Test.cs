@@ -21,19 +21,19 @@ namespace ChemTest
 			get { return wrongAnsw; }
 		}
 
-		//public Test()
-		//{
-		//	tasks = new List<Task>();
+        public Test()
+        {
+            tasks = new List<Task>();
 
-		//	Shuffle();
+            Shuffle();
 
-		//	Current = 0;
-		//	rightAnsw = 0;
-		//	wrongAnsw = 0;
-		//}
+            Current = 0;
+            rightAnsw = 0;
+            wrongAnsw = 0;
+        }
 
-		// returns shuffled list
-		public void Shuffle()
+        // returns shuffled list
+        public void Shuffle()
 		{
 			tasks = ShuffleQuestions(tasks);
 			tasks = ShuffleVariants(tasks);

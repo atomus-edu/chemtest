@@ -46,6 +46,7 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.dgwQuestions = new System.Windows.Forms.DataGridView();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgwQuestions)).BeginInit();
             this.SuspendLayout();
@@ -53,6 +54,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.Window;
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.cbxSubject);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.btnReturnToMain);
@@ -71,6 +73,7 @@
             this.cbxSubject.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbxSubject.DisplayMember = "1";
             this.cbxSubject.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxSubject.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cbxSubject.FormattingEnabled = true;
             this.cbxSubject.Items.AddRange(new object[] {
             "Будь-який",
@@ -93,9 +96,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.SystemColors.Window;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.Location = new System.Drawing.Point(191, 15);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 13);
+            this.label5.Size = new System.Drawing.Size(56, 13);
             this.label5.TabIndex = 46;
             this.label5.Text = "Предмет:";
             // 
@@ -119,6 +123,7 @@
             // 
             this.cbxDifficult.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbxDifficult.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxDifficult.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cbxDifficult.FormattingEnabled = true;
             this.cbxDifficult.Items.AddRange(new object[] {
             "Будь-яка",
@@ -137,6 +142,7 @@
             // 
             this.cbxClass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbxClass.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxClass.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.cbxClass.FormattingEnabled = true;
             this.cbxClass.Items.AddRange(new object[] {
             "Будь-який",
@@ -159,9 +165,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.Window;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(411, 15);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.Size = new System.Drawing.Size(33, 13);
             this.label2.TabIndex = 42;
             this.label2.Text = "Клас:";
             // 
@@ -169,9 +176,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.SystemColors.Window;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.Location = new System.Drawing.Point(596, 15);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.Size = new System.Drawing.Size(67, 13);
             this.label4.TabIndex = 43;
             this.label4.Text = "Складність:";
             // 
@@ -264,6 +272,15 @@
             this.openFileDialog1.Filter = "Тестові файли|*.ct|Всі файли|*.*";
             this.openFileDialog1.Title = "Оберіть файл";
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 45);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(800, 1);
+            this.panel2.TabIndex = 48;
+            // 
             // fSelectTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -307,5 +324,6 @@
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Button btnOpen;
 		private System.Windows.Forms.OpenFileDialog openFileDialog1;
-	}
+        private System.Windows.Forms.Panel panel2;
+    }
 }

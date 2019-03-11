@@ -38,6 +38,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1 = new System.Windows.Forms.Panel();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.dgwResult)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -115,12 +116,22 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.tbxPath);
             this.panel1.Controls.Add(this.btnOpen);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(523, 65);
             this.panel1.TabIndex = 45;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 64);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(523, 1);
+            this.panel2.TabIndex = 49;
             // 
             // fStudentExamResultViewer
             // 
@@ -154,5 +165,6 @@
 		private System.Windows.Forms.OpenFileDialog openFileDialog1;
 		private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Panel panel2;
     }
 }

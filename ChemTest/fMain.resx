@@ -122,10 +122,13 @@
     <value>Flat</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bExam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="bExam.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7AAAAOwAFq1okJAAAAAWJL
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA6+AAAOvgHqQrHAAAAAAWJL
         R0QTDLtclgAAAAd0SU1FB+MDBhAEBTbvdHsAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTktMDMtMDZUMTU6
         MDQ6MDUrMDE6MDBHmkifAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE5LTAzLTA2VDE1OjA0OjA1KzAxOjAw
         NsfwIwAAAwNJREFUSEvdlUtME1EUhi9ESViJuMSd7ogYAqWYiBAepfKYUiKYgGAIBSI1JfJoOwqKIfgI
@@ -151,10 +154,10 @@
     <value>NoControl</value>
   </data>
   <data name="bExam.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 132</value>
+    <value>302, 132</value>
   </data>
   <data name="bExam.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 27</value>
+    <value>195, 27</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="bExam.TabIndex" type="System.Int32, mscorlib">
@@ -184,6 +187,9 @@
   <data name="bTraining.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="bTraining.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="bTraining.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -191,10 +197,10 @@
     <value>NoControl</value>
   </data>
   <data name="bTraining.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 165</value>
+    <value>302, 165</value>
   </data>
   <data name="bTraining.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 27</value>
+    <value>195, 27</value>
   </data>
   <data name="bTraining.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -220,6 +226,9 @@
   <data name="bHowToUse.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="bHowToUse.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="bHowToUse.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -227,10 +236,10 @@
     <value>NoControl</value>
   </data>
   <data name="bHowToUse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 264</value>
+    <value>302, 264</value>
   </data>
   <data name="bHowToUse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 27</value>
+    <value>195, 27</value>
   </data>
   <data name="bHowToUse.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -256,6 +265,9 @@
   <data name="bAboutUs.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="bAboutUs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="bAboutUs.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -263,10 +275,10 @@
     <value>NoControl</value>
   </data>
   <data name="bAboutUs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 297</value>
+    <value>302, 297</value>
   </data>
   <data name="bAboutUs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 27</value>
+    <value>195, 27</value>
   </data>
   <data name="bAboutUs.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -292,6 +304,9 @@
   <data name="bExit.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="bExit.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="bExit.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -299,10 +314,10 @@
     <value>NoControl</value>
   </data>
   <data name="bExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 330</value>
+    <value>302, 330</value>
   </data>
   <data name="bExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 27</value>
+    <value>195, 27</value>
   </data>
   <data name="bExit.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -328,6 +343,9 @@
   <data name="lblVersion.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="lblVersion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI Light, 8.25pt</value>
+  </data>
   <data name="lblVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -335,7 +353,7 @@
     <value>386, 417</value>
   </data>
   <data name="lblVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>28, 13</value>
+    <value>26, 13</value>
   </data>
   <data name="lblVersion.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -361,6 +379,9 @@
   <data name="bSettings.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="bSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="bSettings.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -368,10 +389,10 @@
     <value>NoControl</value>
   </data>
   <data name="bSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 231</value>
+    <value>302, 231</value>
   </data>
   <data name="bSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 27</value>
+    <value>195, 27</value>
   </data>
   <data name="bSettings.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -397,6 +418,9 @@
   <data name="btnAddQuestions.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnAddQuestions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="btnAddQuestions.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -404,10 +428,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnAddQuestions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 198</value>
+    <value>302, 198</value>
   </data>
   <data name="btnAddQuestions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 27</value>
+    <value>195, 27</value>
   </data>
   <data name="btnAddQuestions.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -433,6 +457,9 @@
   <data name="btnBackToMenu.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnBackToMenu.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="btnBackToMenu.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -440,10 +467,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnBackToMenu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 132</value>
+    <value>302, 132</value>
   </data>
   <data name="btnBackToMenu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 27</value>
+    <value>195, 27</value>
   </data>
   <data name="btnBackToMenu.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -472,6 +499,9 @@
   <data name="btnNewTest.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnNewTest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="btnNewTest.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -479,10 +509,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnNewTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 165</value>
+    <value>302, 165</value>
   </data>
   <data name="btnNewTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 27</value>
+    <value>195, 27</value>
   </data>
   <data name="btnNewTest.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -511,6 +541,9 @@
   <data name="btnEditTest.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
+  <data name="btnEditTest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
   <data name="btnEditTest.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
@@ -518,10 +551,10 @@
     <value>NoControl</value>
   </data>
   <data name="btnEditTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>319, 198</value>
+    <value>302, 198</value>
   </data>
   <data name="btnEditTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 27</value>
+    <value>195, 27</value>
   </data>
   <data name="btnEditTest.TabIndex" type="System.Int32, mscorlib">
     <value>26</value>

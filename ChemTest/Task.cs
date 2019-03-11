@@ -8,6 +8,10 @@
 		public string Variant3 { get; set; }
 		public string Answer { get; set; }
 
+        public Task()
+        {
+
+        }
 		public Task(string question, string variant1, string variant2, string variant3, string answer)
 		{
 			Question = question;

@@ -17,8 +17,11 @@ namespace ChemTest
 			if (!ChemTest.rememberPassword)
 			{
 				fLogin fl = new fLogin();
-				if (fl.ShowDialog() == DialogResult.Cancel)
-					Close();
+                if (fl.ShowDialog() == DialogResult.Cancel)
+                {
+                    Close();
+                    Application.Exit();
+                }
 			}
 
 			fe = new fExam(false);

@@ -58,6 +58,7 @@ namespace ChemTest
 			}
 			else
 				DialogResult = DialogResult.OK;
+            Close();
 		}
     }
 }
