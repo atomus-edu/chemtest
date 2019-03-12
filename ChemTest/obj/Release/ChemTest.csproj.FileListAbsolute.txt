@@ -18,3 +18,24 @@ D:\Visual studio projects\ChemTest\ChemTest\obj\Release\ChemTest.fSelectTest.res
 D:\Visual studio projects\ChemTest\ChemTest\obj\Release\ChemTest.fAboutChemTest.resources
 D:\Visual studio projects\ChemTest\ChemTest\obj\Release\ChemTest.fExamResult.resources
 D:\Visual studio projects\ChemTest\ChemTest\obj\Release\ChemTest.fHowToUse.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\bin\Release\ChemTest.exe.config
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\bin\Release\ChemTest.exe
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\bin\Release\ChemTest.pdb
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.csprojAssemblyReference.cache
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.fAboutChemTest.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.CreateTest.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.fEditTest.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.fExam.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.fExamResult.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.fHowToUse.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.fLogin.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.fMain.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.fSelectTest.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.fSettings.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.fStudentExamResultViewer.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.fTraining.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.Properties.Resources.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.csproj.GenerateResource.cache
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.exe
+C:\Users\Александр\Documents\GitHub\ChemTest\ChemTest\obj\Release\ChemTest.pdb

@@ -12,7 +12,7 @@ namespace ChemTest
             // initial images
             btnBack.BackgroundImage = Image.FromFile(ChemTest.imagesFolderPath + @"\btn\back.png");
 
-            pictureBox1.Image = Image.FromFile(ChemTest.imagesFolderPath+@"\howtouse\main.png");
+            pictureBox1.Image = Image.FromFile(ChemTest.imagesFolderPath + @"\howtouse\main.png");
             pictureBox2.Image = Image.FromFile(ChemTest.imagesFolderPath + @"\howtouse\training.png");
             pictureBox3.Image = Image.FromFile(ChemTest.imagesFolderPath + @"\howtouse\exam.png");
             pictureBox4.Image = Image.FromFile(ChemTest.imagesFolderPath + @"\howtouse\create-test.png");

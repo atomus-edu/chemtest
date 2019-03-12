@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <tasks>
+    <Task>
+      <Question>Визначення атома</Question>
+      <Variant1>найменша частинка, що входить до складу молекули і зберігає її властивості</Variant1>
+      <Variant2>електронейтральна частинка речовини, що складається з протонів</Variant2>
+      <Variant3>найменша електронейтральна частинка, що складається з ядра та електронів</Variant3>
+      <Answer>найменша електронейтральна частинка, що складається з ядра та електронів</Answer>
+    </Task>
+    <Task>
+      <Question>Позначте визначення молекули</Question>
+      <Variant1>найменша частинка речовини, що зберігає її властивості</Variant1>
+      <Variant2>найменша частинка речовини, що здатна до самостійного існування</Variant2>
+      <Variant3>найменша частинка елемента, що зберігає його властивості</Variant3>
+      <Answer>найменша частинка речовини, що зберігає її властивості</Answer>
+    </Task>
+    <Task>
+      <Question>Позначте порядковий номер елемента Х, що утворює речовину ХО з відносною молекулярною масою 30</Question>
+      <Variant1>6</Variant1>
+      <Variant2>7</Variant2>
+      <Variant3>14</Variant3>
+      <Answer>7</Answer>
+    </Task>
+    <Task>
+      <Question>Позначте визначення відносної атомної маси</Question>
+      <Variant1>найменша маса речовини, яка обумовлює її властивості</Variant1>
+      <Variant2>маса одного моля речовини</Variant2>
+      <Variant3>число, що дорівнює відношеню маси атома елемента до 1/12 атома Карбону</Variant3>
+      <Answer>число, що дорівнює відношеню маси атома елемента до 1/12 атома Карбону</Answer>
+    </Task>
+    <Task>
+      <Question>Позначте визначення атомної одиниці маси</Question>
+      <Variant1>1/2 маси атома нуклiда Карбону-12</Variant1>
+      <Variant2>Маса атома нукліда Карбону-12</Variant2>
+      <Variant3>1/12 маси атома нукліда Карбону-12</Variant3>
+      <Answer>1/12 маси атома нукліда Карбону-12</Answer>
+    </Task>
+    <Task>
+      <Question>Позначте відносну молекулярну масу ортофосфатної кислоти</Question>
+      <Variant1>95</Variant1>
+      <Variant2>105</Variant2>
+      <Variant3>98</Variant3>
+      <Answer>98</Answer>
+    </Task>
+  </tasks>
+  <Theme>Атомно-молекулярна будова речовини</Theme>
+  <Subject>Хімія</Subject>
+  <Class>6</Class>
+  <Difficult>Середній</Difficult>
+</Questions>

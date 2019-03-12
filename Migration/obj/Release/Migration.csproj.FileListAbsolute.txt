@@ -7,3 +7,4 @@ C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Release\Migr
 C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Release\Migration.csproj.CoreCompileInputs.cache
 C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Release\Migration.exe
 C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Release\Migration.pdb
+C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Release\Migration.csprojAssemblyReference.cache
