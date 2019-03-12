@@ -139,11 +139,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(227, 36);
+            this.label3.Location = new System.Drawing.Point(214, 36);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 15);
+            this.label3.Size = new System.Drawing.Size(102, 15);
             this.label3.TabIndex = 49;
-            this.label3.Text = "Січень 10, 2019";
+            this.label3.Text = "Березень 12, 2019";
             // 
             // button1
             // 
@@ -172,7 +172,7 @@
             // 
             this.linkLabel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabel2.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.linkLabel2.Location = new System.Drawing.Point(80, 142);
+            this.linkLabel2.Location = new System.Drawing.Point(80, 144);
             this.linkLabel2.Name = "linkLabel2";
             this.linkLabel2.Size = new System.Drawing.Size(226, 22);
             this.linkLabel2.TabIndex = 52;
@@ -186,7 +186,7 @@
             this.groupBox1.Controls.Add(this.label19);
             this.groupBox1.Controls.Add(this.label22);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(83, 158);
+            this.groupBox1.Location = new System.Drawing.Point(82, 158);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(322, 60);
             this.groupBox1.TabIndex = 53;
@@ -196,7 +196,7 @@
             // 
             this.linkLabel3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.linkLabel3.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.linkLabel3.Location = new System.Drawing.Point(80, 120);
+            this.linkLabel3.Location = new System.Drawing.Point(80, 122);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(235, 22);
             this.linkLabel3.TabIndex = 54;
