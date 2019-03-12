@@ -1,0 +1,10 @@
+C:\Users\Александр\Documents\GitHub\ChemTest\Migration\bin\Debug\Migration.exe.config
+C:\Users\Александр\Documents\GitHub\ChemTest\Migration\bin\Debug\Migration.exe
+C:\Users\Александр\Documents\GitHub\ChemTest\Migration\bin\Debug\Migration.pdb
+C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Debug\Migration.csprojAssemblyReference.cache
+C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Debug\Migration.Properties.Resources.resources
+C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Debug\Migration.csproj.GenerateResource.cache
+C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Debug\Migration.csproj.CoreCompileInputs.cache
+C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Debug\Migration.exe
+C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Debug\Migration.pdb
+C:\Users\Александр\Documents\GitHub\ChemTest\Migration\obj\Debug\Migration.fMain.resources
