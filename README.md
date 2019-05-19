@@ -19,3 +19,41 @@ https://atomusedu.wixsite.com/chemtest
 *Copyright(c) 2017-2019 Atomus HQ Pty Ltd*
 
 *Version: 1.0 Release*
+
+## Screenshots
+
+### Home
+![Main](/Screenshots/main.png)
+
+### Select Test
+![Select](/Screenshots/select.png)
+
+### Exam
+![Exam](/Screenshots/exam.png)
+
+### Exam Result
+![Result](/Screenshots/result.png)
+
+### Training
+![Training](/Screenshots/training.png)
+
+### Create Own Test
+![Create](/Screenshots/create.png)
+
+### Edit Test
+![Edit](/Screenshots/edit.png)
+
+### How To Use?
+![HowToUse](/Screenshots/howtouse.png)
+
+### About ChemTest
+![About](/Screenshots/about.png)
+
+### Settings
+
+#### Testing
+![Settings](/Screenshots/s-testing.png)
+#### Questions
+![Questions](/Screenshots/s-questions.png)
+### User
+![User](/Screenshots/s-user.png)
